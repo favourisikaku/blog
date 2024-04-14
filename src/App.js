@@ -1,23 +1,31 @@
-import logo from './logo.svg';
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
+import About from './Components/About';
+import NavBar from './Components/NavBar';
+import Services from './Components/Services';
+import DataBlog from './Components/DataBlog';
+import Contact from './Components/Contact';
+import Home from './Components/Home';
+import DataAsNewOil from './Components/DataAsNewOil';
+import PowerOfDataAnalytics from './Components/PowerOfDataAnalytics';
+import HelpingBusinessAchieveData from './Components/HelpingBusinessAchieveData';
 
-function App() {
+
+const App = () => {  
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <NavBar />
+      <Routes>
+        <Route path='/' element ={<Home />} />          
+        <Route path='/About' element ={<About />} />
+        <Route path='/Services' element ={<Services />} />
+        <Route path='/DataBlog' element ={<DataBlog />} />
+        <Route path='/Contact' element ={<Contact />} />
+        <Route path='/DataAsNewOil' element ={<DataAsNewOil />} />
+        <Route path='/PowerOfDataAnalytics'  element ={<PowerOfDataAnalytics />} />
+        <Route path='/HelpingBusinessAchieveData'  element ={< HelpingBusinessAchieveData/>} />
+      </Routes>   
     </div>
   );
 }
