@@ -74,8 +74,7 @@ a{
     height: 200px;
     position: relative;
     object-fit: contain;
-    
-    /* margin-left: -1000px; */
+
 }
 .home-img2 img{
     width: 200px;
@@ -551,6 +550,7 @@ background-color: #1da1f2;
 }
 .services-social-header{
     margin-left: 40%;
+    
 }
 .services-text-header{
     padding-top: 150px;
@@ -566,7 +566,9 @@ background-color: #1da1f2;
     margin-top: 20px;
 }
 .services-text-header h1{
-    width: 700px
+    width: 700px;
+    font-weight: bold;
+    color: #0A0F4D;
 }
 .services-text-header p{
     padding-top: 40px;

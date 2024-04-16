@@ -203,6 +203,75 @@ const ArtificialIntelligence = () => {
 					</Zoom>
 				</div>
 			</section>
+
+			<footer className=''>
+				<Fade direction='up' triggerOnce={true}>
+				<div className='footer-container'>
+					<div className='container'>
+						<div className='footer-header'>
+							<div className='logo-section'>
+								<div>
+									<a href='/'>
+									<h1>Logo</h1>
+									</a>
+									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
+								</div>
+								<div className='d-flex lets-connect-header'>
+									<i className="fas fa-dot-circle mt-1 pe-2"></i>
+									<h6 className='mb-4 text'>Let's Connect on Social</h6>
+								</div>
+								<div className='socials'>
+									<i class="fab fa-facebook"></i>
+									<i class="fab fa-twitter"></i>
+									<i class="fab fa-instagram"></i>
+									<i class="fab fa-youtube"></i>
+									<i class="fab fa-linkedin"></i>
+									<i class="fab fa-tiktok"></i>
+								</div>
+							</div>
+							<div className='link-section'>
+								<div className='mb-3'>
+									<h5>Quick Links</h5>
+								</div>
+								<ul>							
+									<li><i class="icon icon-right-arrow1"></i><a href='/'>Home</a></li>
+									<li><i class="icon icon-right-arrow1"></i><a href='/About'>About Us</a></li>
+									<li><i class="icon icon-right-arrow1"></i><a href='/Services'>Services</a></li>
+									<li><i class="icon icon-right-arrow1"></i><a href='/DataBlog'>Data Blog</a></li>
+									<li><i class="icon icon-right-arrow1"></i><a href='/Contact'>Contact Us</a></li>
+								</ul>
+							</div>
+							<div className='company-section'>
+								<div className='mb-3'>
+									<h5>Company</h5>
+								</div>
+								<div className='d-flex'>
+									<i aria-hidden="true" class="fas fa-phone-alt"></i>
+									<div>
+										<h6>Phone Number</h6>
+										<p>+234.....</p>
+									</div>
+								</div>
+								<div className='d-flex'>
+									<i aria-hidden="true" class="fas fa-mail-bulk"></i>
+									<div>
+										<h6>Email Us</h6>
+										<p>1234@email.com</p>
+									</div>
+								</div>
+								<div className='d-flex'>
+									<i aria-hidden="true" class="fas fa-map-marked-alt"></i>
+									<div>
+										<h6>Address</h6>
+										<p>+1234 road lagos</p>
+									</div>
+								</div>
+							</div>
+						</div>	
+					</div>
+				</div>	
+				</Fade>	
+			</footer>
     </div>
   )
 }

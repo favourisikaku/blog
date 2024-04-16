@@ -10,7 +10,7 @@ import footerlogo from '../assets/db_logo_grey.png'
 const HelpingBusinessAchieveData = () => {
   return (
     <div>
-      <section className=''>
+      	<section className=''>
 				<div className='services-background-image data-as-new-oil-header'>
 					<Fade direction='down' triggerOnce={true}>
 					<div className='container'>
@@ -27,7 +27,7 @@ const HelpingBusinessAchieveData = () => {
 					</div>
 					</Fade>
 				</div>
-			</section> 
+		</section> 
 
 			<section className='datablog-post-main-container'>
 				<div className='datablog-post-container container d-flex'>
@@ -213,7 +213,7 @@ const HelpingBusinessAchieveData = () => {
 							<div className='logo-section'>
 								<div>
 									<a href='/'>
-									<img src={footerlogo} />
+									<h1>Logo</h1>
 									</a>
 									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
 								</div>

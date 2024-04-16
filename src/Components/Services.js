@@ -175,7 +175,7 @@ const Services = () => {
 							<div className='logo-section'>
 								<div>
 									<a href='/'>
-									<img src={footerlogo} />
+									<h1>Logo</h1>
 									</a>
 									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
 								</div>

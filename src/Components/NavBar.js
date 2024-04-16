@@ -9,8 +9,7 @@ const NavBar = () => {
       <nav class="navbar navbar-dark bg-light fixed-top">
         <div class="container navbar-image">
           <a href='/'>
-            <img  src={logo}/>
-            
+            <h1>Logo</h1>         
           </a>          
           <div className='nav '>
             <ul className='d-flex'>
