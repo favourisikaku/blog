@@ -9,6 +9,8 @@ import Home from './Components/Home';
 import DataAsNewOil from './Components/DataAsNewOil';
 import PowerOfDataAnalytics from './Components/PowerOfDataAnalytics';
 import HelpingBusinessAchieveData from './Components/HelpingBusinessAchieveData';
+import BigDataIsChanging from './Components/BigDataIsChanging';
+import ArtificialIntelligence from './Components/ArtificialIntelligence';
 
 
 const App = () => {  
@@ -25,6 +27,8 @@ const App = () => {
         <Route path='/DataAsNewOil' element ={<DataAsNewOil />} />
         <Route path='/PowerOfDataAnalytics'  element ={<PowerOfDataAnalytics />} />
         <Route path='/HelpingBusinessAchieveData'  element ={< HelpingBusinessAchieveData/>} />
+        <Route path='/BigDataIsChanging'  element ={< BigDataIsChanging/>} />
+        <Route path='/ArtificialIntelligence'  element ={< ArtificialIntelligence/>} />
       </Routes>   
     </div>
   );

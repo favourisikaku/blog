@@ -141,7 +141,7 @@ const Home = () => {
 								<p>We help you design and implement a data architecture that meets your business needs.</p>
 								<h6><a href=''>Read more ...</a></h6>
 							</Fade>
-							</div>
+							</div>							
 							<div className='background'>
 							<Fade direction='down' triggerOnce={true}>
 								<h3>Data Insights</h3>

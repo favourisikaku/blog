@@ -33,7 +33,7 @@ const DataBlog = () => {
 								<div><i aria-hidden="true" class="fas fa-user"></i><span>Dr. Fauziya</span></div>
 								<p>As a data science consultant, I’ve had the opportunity to...</p>
 								<div>
-									<a href=''>Read more</a>
+									<a href='/DataAsNewOil'>Read more</a>
 									<i aria-hidden="true" class="fas fa-arrow-right"></i>
 								</div>
 							</div>
@@ -45,7 +45,7 @@ const DataBlog = () => {
 							<div><i aria-hidden="true" class="fas fa-user"></i><span>Dr. Fauziya</span></div>
 							<p>Introduction In today's data-driven world, businesses and governments are increasingly...</p>
 							<div>
-								<a href=''>Read more</a>
+								<a href='/PowerOfDataAnalytics'>Read more</a>
 								<i aria-hidden="true" class="fas fa-arrow-right"></i>
 							</div>
 						</div>
@@ -57,7 +57,7 @@ const DataBlog = () => {
 								<div><i aria-hidden="true" class="fas fa-user"></i><span>Dr. Fauziya</span></div>
 								<p>Introduction: In today's data-driven world, businesses need to use data...</p>
 								<div>
-									<a href=''>Read more</a>
+									<a href='/HelpingBusinessAchieveData'>Read more</a>
 									<i aria-hidden="true" class="fas fa-arrow-right"></i>
 								</div>
 							</div>
@@ -69,7 +69,7 @@ const DataBlog = () => {
 								<div><i aria-hidden="true" class="fas fa-user"></i><span>Dr. Fauziya</span></div>
 								<p>Introduction: In today's data-driven world, big data is revolutionizing the...</p>
 								<div>
-									<a href=''>Read more</a>
+									<a href='/BigDataIsChanging'>Read more</a>
 									<i aria-hidden="true" class="fas fa-arrow-right"></i>
 								</div>
 
@@ -83,7 +83,7 @@ const DataBlog = () => {
 								<div><i aria-hidden="true" class="fas fa-user"></i><span>Dr. Fauziya</span></div>
 								<p>Introduction: The recent proliferation of artificial intelligence (AI) and data...</p>
 								<div className='mb-5'>
-									<a href=''>Read more</a>
+									<a href='/ArtificialIntelligence'>Read more</a>
 									<i aria-hidden="true" class="fas fa-arrow-right"></i>
 								</div>
 							</div>
