@@ -132,7 +132,7 @@ const DataBlog = () => {
 								<div className='recent-post-social'>
 									<div className='d-flex recent-post-social-follow-us'>
 										<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
-										<h6>Follow us to ahieve more</h6>
+										<h6>Follow us to achieve more</h6>
 									</div>
 									<div className='socials'>
 										<i class="fab fa-facebook"></i>
@@ -228,7 +228,7 @@ const DataBlog = () => {
 				</div>	
 				</Fade>	
 			</footer>
-		</div>
+	</div>
   )
 }
 

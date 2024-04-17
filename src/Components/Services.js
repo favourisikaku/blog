@@ -24,6 +24,55 @@ const Services = () => {
 				</div>
 			</section>
 
+			<section>
+				<div className='services-background-image2'>
+					<div className='d-flex container'>
+						<div className=''>
+							<Fade direction='down' triggerOnce>
+							<div className='d-flex'>
+								<i class="fas fa-dot-circle mt-1 me-2"></i>
+								<h5>Unleash the Power of Your Data with DataBrains</h5>
+							</div>
+							</Fade>
+							<Fade direction='down' triggerOnce>
+							<div>
+								<h1>Your Top Choice for Professional Data Services!</h1>
+							</div>
+							</Fade>
+							<Fade direction='down' triggerOnce delay={400}>
+							<div className='services-top-choice d-flex'>
+							<i class="fa-solid fa-signal ms-4 me-5"></i>
+								<div>
+									<h4>Improved Decision-Making</h4>
+									<p>Data analysis can help businesses make better decisions by providing insights into their customers, competitors, and market trends.</p>
+								</div>
+							</div>
+							</Fade>
+							<Fade direction='up' triggerOnce>
+							<div className='services-top-choice d-flex'>
+							<i class="fa-regular fa-address-card ms-4 me-5"></i>
+								<div>
+									<h4>Enhanced Customer Experience</h4>
+									<p>Data analysis can help businesses improve the customer experience by providing personalized recommendations and targeted marketing campaigns.</p>
+								</div>
+							</div>
+							</Fade>
+						</div>
+						<div className='services-image-header'>
+							<Zoom direction='up' triggerOnce delay={1000}>
+								<img src={img1} />
+							</Zoom>
+						</div>
+							<Zoom triggerOnce>
+							<div className='stat'>
+								<img src={analytics} />
+								<img src={stats} />
+							</div>
+							</Zoom>
+						
+					</div>
+				</div>
+			</section>
 
 			<section className=''>
 				<div className='background-image-2'>
@@ -100,72 +149,71 @@ const Services = () => {
 
 			<section >
 				<Fade direction='right' triggerOnce={true}>
-					<div className='services-social'>				
-					
-					<div className='services-social-header'>
-						<div className='d-flex mb-4'>
-							<i class="fas fa-dot-circle mt-1 me-2"></i>
-							<h5>We Have Got You Covered</h5>
-						</div>
-						<div>
-							<h1 className='mb-3'>Let Us Help You See the Big Picture</h1>
-							<p className='mb-5'>DataBrains is a data analytics company that helps businesses of all sizes make better decisions with data. We have a team of experts with decades of experience in data management, business intelligence, and advanced analytics.</p>
-						</div>
-						<div className='d-flex'>
-							<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
-							<p>We help you understand your data and identify patterns and trends.</p>
-						</div>
-						<div className='d-flex'>
-							<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
-							<p>We create visualizations that make your data easy to understand and act on.</p>
-						</div>
-						<div className='d-flex'>
-							<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
-							<p>We recommend actions that can help you improve your business performance.</p>
-						</div>
-						<div className='services-contact d-flex mt-5'>
-							<div className='d-flex me-5'>
-								<div>
-									<img />
-								</div>
-								<div>
-									<h2 className='text-light'>Dr. Fauziya</h2>
-									<p>Lead Data Engineer</p>
-								</div>							
+					<div className='services-social'>								
+						<div className='services-social-header'>
+							<div className='d-flex mb-4'>
+								<i class="fas fa-dot-circle mt-1 me-2"></i>
+								<h5>We Have Got You Covered</h5>
 							</div>
-							<div className='d-flex ms-5'>
-								<div className='me-4'>
-									<i class="fas fa-phone-alt"></i>
-								</div>
-								<div>
-									<h2 className='text-light'>+234........</h2>
-									<p>WhatsApp & SMS</p>
-								</div>						
+							<div>
+								<h1 className='mb-3'>Let Us Help You See the Big Picture</h1>
+								<p className='mb-5'>DataBrains is a data analytics company that helps businesses of all sizes make better decisions with data. We have a team of experts with decades of experience in data management, business intelligence, and advanced analytics.</p>
 							</div>
-						</div>
-						<div className='services-connect'>
 							<div className='d-flex'>
-								<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
-								<h5>Let's Connect on Social</h5>
+								<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
+								<p>We help you understand your data and identify patterns and trends.</p>
 							</div>
-							<div className='socials'>
-								<i class="fab fa-facebook"></i>
-								<i class="fab fa-twitter"></i>
-								<i class="fab fa-instagram"></i>
-								<i class="fab fa-youtube"></i>
-								<i class="fab fa-linkedin"></i>
-								<i class="fab fa-tiktok"></i>
+							<div className='d-flex'>
+								<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
+								<p>We create visualizations that make your data easy to understand and act on.</p>
+							</div>
+							<div className='d-flex'>
+								<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
+								<p>We recommend actions that can help you improve your business performance.</p>
+							</div>
+							<div className='services-contact d-flex mt-5'>
+								<div className='d-flex me-5'>
+									<div className='me-3'>
+										<img src={user}/>
+									</div>
+									<div>
+										<h2 className='text-light'>Dr. Fauziya</h2>
+										<p>Lead Data Engineer</p>
+									</div>							
+								</div>
+								<div className='d-flex services-contact-whatsapp ms-5'>
+									<div className='me-3'>
+										<i class="fas fa-phone-alt"></i>
+									</div>
+									<div>
+										<h2 className='text-light'>+234........</h2>
+										<p>WhatsApp & SMS</p>
+									</div>						
+								</div>
+							</div>
+							<div className='services-connect'>
+								<div className='d-flex services-connect-social-header'>
+									<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
+									<h5>Let's Connect on Social</h5>
+								</div>
+								<div className='socials'>
+									<i class="fab fa-facebook"></i>
+									<i class="fab fa-twitter"></i>
+									<i class="fab fa-instagram"></i>
+									<i class="fab fa-youtube"></i>
+									<i class="fab fa-linkedin"></i>
+									<i class="fab fa-tiktok"></i>
+								</div>
 							</div>
 						</div>
-					</div>
 					</div>
 				</Fade>
 				<div className='services-social-image-header'>
-					<Fade direction='left' triggerOnce={true}>						
+					<Fade direction='left' triggerOnce={true}>				
 					<img src={img4} />
-					</Fade>
+					</Fade>	
 				</div>
-			</section>
+		</section>
 
 			<footer className=''>
 				<Fade direction='up' triggerOnce={true}>

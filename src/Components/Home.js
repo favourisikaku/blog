@@ -232,7 +232,7 @@ const Home = () => {
 								</div>
 							</div>
 							<div className='services-connect'>
-								<div className='d-flex'>
+								<div className='d-flex services-connect-social-header'>
 									<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
 									<h5>Let's Connect on Social</h5>
 								</div>
@@ -258,7 +258,7 @@ const Home = () => {
 			<section className='home-section-attachment-header'>
 				<div className='container d-flex'>
 					
-					<div>
+					<div className='growing-demand-data-analytics-header'>
 						<Fade direction='left' triggerOnce={true}>
 						<div className='d-flex mb-4'>
 							<i class="fas fa-dot-circle mt-1 me-2"></i>
@@ -269,19 +269,19 @@ const Home = () => {
 						</div>
 						</Fade>
 						<Fade direction='left' delay={400} triggerOnce={true}>				
-						<div className='d-flex mt-5'>
+						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
 							<h2 >90 %</h2>
 							<p>Of the world’s data has been created in the last two years.</p>
 						</div>
 						</Fade>
 						<Fade direction='left' delay={600} triggerOnce={true}>
-						<div className='d-flex mt-5'>
+						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
 							<h2>58 %</h2>
 							<p>Data-driven companies are more likely to beat revenue goals.</p>
 						</div>
 						</Fade>
 						<Fade direction='left' delay={800} triggerOnce={true}>
-						<div className='d-flex mt-5'>
+						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
 							<h2>$ 274 +</h2>
 							<p>The global data analytics market is expected to reach $274.3 billion by 2025.</p>
 						</div>

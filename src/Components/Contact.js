@@ -66,7 +66,7 @@ const Contact = () => {
 
 								<div class="form-group col-12">
 									<label for="comments" className='mb-2 label'>Comments / Questions <span class="required">*</span></label>
-									<textarea rows='8' class="form-control" id="comments" name="comments"placeholder='Comments' required></textarea>
+									<textarea rows='6' class="form-control" id="comments" name="comments"placeholder='Comments' required></textarea>
 									<span class="error-message">This field is required.</span>
 								</div>
 
@@ -93,7 +93,7 @@ const Contact = () => {
 			</div>
 			</Fade>
 			<Zoom  triggerOnce={true}>
-			<div className='d-flex'>
+			<div className='d-flex contactus-item-header'>
 				<div className='contactus-item ps-5'>
 				<div>
 					<i aria-hidden="true" class="fas fa-phone-alt"></i>
