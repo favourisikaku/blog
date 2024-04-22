@@ -1474,6 +1474,9 @@ form{
 	padding-bottom: 0px;
 	margin-bottom: 70px;
 }
+.growing-demand-data-analytics-header-number h2{
+	width: 24vw;
+}
 
 .services-background-image2 h5{
 	font-size: 16px !important;
