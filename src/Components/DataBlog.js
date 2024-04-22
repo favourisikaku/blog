@@ -89,7 +89,7 @@ const DataBlog = () => {
 							</div>
 						</Fade>
 					</div>
-					<div>
+					<div className='recent-post-header'>
 						<Fade direction='right' triggerOnce={true}>
 							<div className='recent-post'>
 								<div>

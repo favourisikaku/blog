@@ -22,54 +22,53 @@ const Home = () => {
   return (
     <div className=''>
       <section >
-		<div className='background-image'>
-			<div className='container d-flex'>
-				<div className='background-image-header'>
-					<Fade direction='down' triggerOnce={true}>
-					<div className='d-flex'>
-						<i class="fas fa-dot-circle mt-1 me-2"></i>
-						<h6>DataBrains Technology Consulting</h6>
-					</div>
-					<div>
-						<h1>The Data Analytics Experts You Can Trust</h1>
-						<p>We're a data analytics company that helps businesses of all sizes make better decisions with data. Our team of experts has decades of experience in data management, business intelligence, and advanced analytics.</p>
-					</div>
-					</Fade>
-					<div className='home-btn-header d-flex'>
-						<Fade direction='up' triggerOnce={true}>
-						<div className='home-btn mt-5'>
-							<a href='/About'><button >About Us</button></a>		
+				<div className='background-image'>
+					<div className='container d-flex'>
+						<div className='background-image-header'>
+							<Fade direction='down' triggerOnce={true}>
+							<div className='d-flex'>
+								<i class="fas fa-dot-circle mt-1 me-2"></i>
+								<h6>DataBrains Technology Consulting</h6>
+							</div>
+							<div>
+								<h1>The Data Analytics Experts You Can Trust</h1>
+								<p>We're a data analytics company that helps businesses of all sizes make better decisions with data. Our team of experts has decades of experience in data management, business intelligence, and advanced analytics.</p>
+							</div>
+							</Fade>
+							<div className='home-btn-header d-flex'>
+								<Fade direction='up' triggerOnce={true}>
+								<div className='home-btn mt-5'>
+									<a href='/About'><button >About Us</button></a>		
+								</div>
+								<div className='home-btn-2 mt-5'>
+									<a href='/Contact'><button>Contact Us</button></a>
+								</div>
+								</Fade>
+							</div>					
 						</div>
-						<div className='home-btn-2 mt-5'>
-							<a href='/Contact'><button>Contact Us</button></a>
+						<div>
+							<Zoom direction="up" delay={1000} triggerOnce={true}>
+							<img src={main}/>
+							</Zoom>
+							<div className='home-img1'>
+								<Zoom triggerOnce={true}>
+								<img  src={sales} />
+								</Zoom>
+							</div>
+							<div className='home-img2'>
+								<Zoom triggerOnce={true}>
+								<img  src={stat} />
+								</Zoom>
+							</div>
+							<div className='home-img3'>
+								<Zoom triggerOnce={true}>
+								<img  src={img8} />
+								</Zoom>
+							</div>
 						</div>
-						</Fade>
-					</div>					
-				</div>
-				<div>
-					<Zoom direction="up" delay={1000} triggerOnce={true}>
-					<img src={main}/>
-					</Zoom>
-					<div className='home-img1'>
-						<Zoom triggerOnce={true}>
-						<img  src={sales} />
-						</Zoom>
 					</div>
-					<div className='home-img2'>
-						<Zoom triggerOnce={true}>
-						<img  src={stat} />
-						</Zoom>
-					</div>
-					<div className='home-img3'>
-						<Zoom triggerOnce={true}>
-						<img  src={img8} />
-						</Zoom>
-					</div>
-				</div>
-			</div>
-		</div>
-			
-		</section>
+				</div>		
+			</section>
 
 			<section>
 				<div className='container'>
@@ -139,7 +138,7 @@ const Home = () => {
 								<h3>Data Foundations</h3>
 								<h4>Data Architecture</h4>
 								<p>We help you design and implement a data architecture that meets your business needs.</p>
-								<h6><a href=''>Read more ...</a></h6>
+	
 							</Fade>
 							</div>							
 							<div className='background'>
@@ -147,7 +146,7 @@ const Home = () => {
 								<h3>Data Insights</h3>
 								<h4>Data Science</h4>
 								<p>We help you collect, clean, and analyze data to gain insights that can improve your business decisions.</p>
-								<h6><a href=''>Read more ...</a></h6>
+	
 							</Fade>
 							</div>
 							<div className='background'>
@@ -155,7 +154,7 @@ const Home = () => {
 								<h3>Language Intelligence</h3>
 								<h4>Natural Langugage Processing</h4>
 								<p>We help you understand and process human language to build chatbots, virtual assistants, and other NLP-powered applications.</p>
-								<h6><a href=''>Read more ...</a></h6>
+	
 							</Fade>
 							</div>
 							<div className='background'>
@@ -163,7 +162,7 @@ const Home = () => {
 								<h3>Algorithmic Intelligence</h3>
 								<h4>Machine Learning</h4>
 								<p>We help you build and deploy machine learning models to make predictions and recommendations, and automate tasks.</p>
-								<h6><a href=''>Read more ...</a></h6>
+	
 							</Fade>
 							</div>
 							<div className='background'>
@@ -171,7 +170,7 @@ const Home = () => {
 								<h3>Creative Intelligence</h3>
 								<h4>Generative AI</h4>
 								<p>We help you create new content, such as text, images, or videos, using generative AI.</p>
-								<h6><a href=''>Read more ...</a></h6>
+	
 							</Fade>
 							</div>
 							<div className='background'>
@@ -179,7 +178,7 @@ const Home = () => {
 								<h3>Digital Insights</h3>
 								<h4>Web Analytics</h4>
 								<p>We help you track and analyze your website traffic to identify trends and patterns that can improve your website performance and conversion rates.</p>
-								<h6><a href=''>Read more ...</a></h6>
+	
 							</Fade>
 							</div>
 						</div>
@@ -221,7 +220,7 @@ const Home = () => {
 										<p>Lead Data Engineer</p>
 									</div>							
 								</div>
-								<div className='d-flex services-contact-whatsapp ms-5'>
+								<div className='d-flex services-contact-whatsapp ms-2'>
 									<div className='me-3'>
 										<i class="fas fa-phone-alt"></i>
 									</div>
@@ -401,7 +400,7 @@ const Home = () => {
 				<div className='home-connect'>
 					<Fade direction='up' triggerOnce={true}>
 					<div className='d-flex home-connect-text'>
-						<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
+						<i class="fas fa-dot-circle mt-3 me-2 mb-4"></i>
 						<h6>Let's Connect on Social</h6>
 					</div>
 					<div className='home-socials'>

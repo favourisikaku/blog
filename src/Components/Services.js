@@ -27,7 +27,7 @@ const Services = () => {
 			<section>
 				<div className='services-background-image2'>
 					<div className='d-flex container'>
-						<div className=''>
+						<div className='services-background-image2-header'>
 							<Fade direction='down' triggerOnce>
 							<div className='d-flex'>
 								<i class="fas fa-dot-circle mt-1 me-2"></i>
@@ -99,7 +99,6 @@ const Services = () => {
 								<h3>Data Foundations</h3>
 								<h4>Data Architecture</h4>
 								<p>We help you design and implement a data architecture that meets your business needs.</p>
-								<h6><a href=''>Read more ...</a></h6>
 							</Fade>
 							</div>
 							<div className='background'>
@@ -107,7 +106,6 @@ const Services = () => {
 								<h3>Data Insights</h3>
 								<h4>Data Science</h4>
 								<p>We help you collect, clean, and analyze data to gain insights that can improve your business decisions.</p>
-								<h6><a href=''>Read more ...</a></h6>
 							</Fade>
 							</div>
 							<div className='background'>
@@ -115,7 +113,6 @@ const Services = () => {
 								<h3>Language Intelligence</h3>
 								<h4>Natural Langugage Processing</h4>
 								<p>We help you understand and process human language to build chatbots, virtual assistants, and other NLP-powered applications.</p>
-								<h6><a href=''>Read more ...</a></h6>
 							</Fade>
 							</div>
 							<div className='background'>
@@ -123,7 +120,6 @@ const Services = () => {
 								<h3>Algorithmic Intelligence</h3>
 								<h4>Machine Learning</h4>
 								<p>We help you build and deploy machine learning models to make predictions and recommendations, and automate tasks.</p>
-								<h6><a href=''>Read more ...</a></h6>
 							</Fade>
 							</div>
 							<div className='background'>
@@ -131,7 +127,6 @@ const Services = () => {
 								<h3>Creative Intelligence</h3>
 								<h4>Generative AI</h4>
 								<p>We help you create new content, such as text, images, or videos, using generative AI.</p>
-								<h6><a href=''>Read more ...</a></h6>
 							</Fade>
 							</div>
 							<div className='background'>
@@ -139,7 +134,6 @@ const Services = () => {
 								<h3>Digital Insights</h3>
 								<h4>Web Analytics</h4>
 								<p>We help you track and analyze your website traffic to identify trends and patterns that can improve your website performance and conversion rates.</p>
-								<h6><a href=''>Read more ...</a></h6>
 							</Fade>
 							</div>
 						</div>
@@ -217,7 +211,7 @@ const Services = () => {
 
 			<footer className=''>
 				<Fade direction='up' triggerOnce={true}>
-				<div className='footer-container'>
+				<div className='footer-container footer-services'>
 					<div className='container'>
 						<div className='footer-header'>
 							<div className='logo-section'>

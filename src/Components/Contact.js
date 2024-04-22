@@ -9,7 +9,7 @@ const Contact = () => {
       <section>
 		<div className='services-background-image'>
 			<Fade direction='down' triggerOnce={true}>
-			<div className=' contactus-header'>
+			<div className='contactus-header'>
 				<h5>Contact Us</h5>
 				<h1>Get Support from us Anytime</h1>
 				<p>We use the latest data analytics technologies and best practices to ensure that our solutions are effective and efficient.</p>
@@ -27,7 +27,7 @@ const Contact = () => {
 						<p>We're here to help! Please fill out the form below, and we'll get back to you soon.</p>
 					</div>
 				</Fade>
-				<div >
+				<div className='form-container-header' >
 					<div className='form-container' >
 						<div>
 							<Fade direction='down' triggerOnce={true}>
@@ -84,8 +84,8 @@ const Contact = () => {
 			< Fade direction='down' triggerOnce={true}>
 			<div className='contactus-social'>
 				<div className='d-flex'>
-					<i class="fas fa-dot-circle mt-1 me-2"></i>
-					<h5>Boost Your Business with Intelligence</h5>
+					<i class="fas fa-dot-circle  me-2"></i>
+					<h5 className='mt-1'>Boost Your Business with Intelligence</h5>
 				</div>
 				<div>
 				<h1>Contact us & get support anytime</h1>

@@ -147,7 +147,7 @@ const About = () => {
 					<img src={img2} />
 					</Fade>	
 				</div>
-			</section>
+		</section>
 
 			<section>
 				<div className='about-background-image2'>
