@@ -141,7 +141,7 @@ a{
 }
 .home-attachment2 img{
     height: 20vh;
-		width: 15vw;
+		width: 12vw;
     border-radius: 10px;
     
 }
@@ -151,7 +151,7 @@ a{
 }
 .home-attachment3 img{
     height: 20vh; 
-		width: 15vw;
+		width: 12vw;
     border-radius: 10px; 
 }
 .home-articles-header h1{
@@ -1597,6 +1597,9 @@ form{
 	font-size: 14px !important;
 	
 }
+.services-contact p{
+	width: 40vw !important;
+}
 .services-social-image-header{
 	display: none;
 }
@@ -1803,8 +1806,8 @@ form{
 	 margin-top: 60px;
 }
 .home-attachment2 img{
-	 height: 120px !important;
-	 width: 160px !important;
+	height: 120px !important;
+	 width: 28vh !important; 
 }
 .home-attachment3{
 	 margin-left:15px;
@@ -1812,13 +1815,13 @@ form{
 }
 .home-attachment3 img{
 	 height: 120px !important;
-	 width: 30vh !important;   
+	 width: 28vh !important;   
 }
 .user{
 	margin-left: 50px;
-	width: 300px;
+	width: 60vw !important;
 	text-align: center;
-	height: 380px;
+	height: 70vh !important;
 	background-color: white;
 	margin-bottom: 30px;
 }
@@ -1826,11 +1829,11 @@ form{
 	font-size: 18px !important;
 }
 .user-header img{
-	height: 250px;
+	height: 30vhpx !important;
 	
 	margin-top: 5px;
 	border-radius: 5px;
-	width: 290px;
+	width: 90% !important;
 	margin-left: 2px;
 }
 .user-images-header{
