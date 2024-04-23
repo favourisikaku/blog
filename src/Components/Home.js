@@ -232,7 +232,7 @@ const Home = () => {
 							</div>
 							<div className='services-connect'>
 								<div className='d-flex services-connect-social-header'>
-									<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
+									<i class="fas fa-dot-circle mt-3 me-2 mb-4"></i>
 									<h5>Let's Connect on Social</h5>
 								</div>
 								<div className='socials'>

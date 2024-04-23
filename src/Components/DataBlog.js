@@ -100,7 +100,10 @@ const DataBlog = () => {
 										<img src={img5} />
 									</div>
 									<div className='ms-3'>
+										<a href='/DataAsNewOil'>
+
 										<h6>Data as the New Oil: Unlocking the Untapped Potential</h6>
+										</a>
 										<p>July 31,2023</p>
 									</div>
 									
@@ -111,7 +114,9 @@ const DataBlog = () => {
 										<img src={img4}/>
 									</div>
 									<div className='ms-3'>
+										<a href='/HelpingBusinessAchieveData'>
 										<h6>Helping Businesses Achieve Data Mission and Profitable Growth with Latest Technology</h6>
+										</a>
 										<p>June 22,2023</p>
 									</div>
 								</div>
@@ -121,7 +126,9 @@ const DataBlog = () => {
 										<img src={img3}/>
 									</div>
 									<div className='ms-3'>
+										<a href='/PowerOfDataAnalytics'>
 										<h6>The Power of Data Analytics: How It Can Help You Make Better Decisions</h6>
+										</a>
 										<p>June 21,2023</p>
 									</div>
 								</div>
@@ -134,7 +141,7 @@ const DataBlog = () => {
 										<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
 										<h6>Follow us to achieve more</h6>
 									</div>
-									<div className='socials'>
+									<div className='socials text-center'>
 										<i class="fab fa-facebook"></i>
 										<i class="fab fa-twitter"></i>
 										<i class="fab fa-instagram"></i>

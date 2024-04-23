@@ -32,7 +32,7 @@ const HelpingBusinessAchieveData = () => {
 			<section className='datablog-post-main-container'>
 				<div className='datablog-post-container container d-flex'>
 					<div className='datablog-post-header'>
-						<div className='datablog-post-image-header helping-business-achieve-data'>
+						<div className='datablog-post-image-header helping-business-achieve-data container'>
 							<div>
 								<Fade direction='down' triggerOnce={true}>
 								<img src={img3} />
@@ -88,7 +88,7 @@ const HelpingBusinessAchieveData = () => {
 					</div>
 					<div>
 						<Fade direction='right' triggerOnce={true}>
-							<div className='recent-post'>
+						<div className='recent-post container'>
 								<div>
 									<h3>Recent Posts</h3>
 								</div>
@@ -97,7 +97,10 @@ const HelpingBusinessAchieveData = () => {
 										<img src={img5} />
 									</div>
 									<div className='ms-3'>
+										<a href='/DataAsNewOil'>
+
 										<h6>Data as the New Oil: Unlocking the Untapped Potential</h6>
+										</a>
 										<p>July 31,2023</p>
 									</div>
 									
@@ -108,7 +111,10 @@ const HelpingBusinessAchieveData = () => {
 										<img src={img4}/>
 									</div>
 									<div className='ms-3'>
+										<a href='/HelpingBusinessAchieveData'>
+
 										<h6>Helping Businesses Achieve Data Mission and Profitable Growth with Latest Technology</h6>
+										</a>
 										<p>June 22,2023</p>
 									</div>
 								</div>
@@ -118,7 +124,9 @@ const HelpingBusinessAchieveData = () => {
 										<img src={img3}/>
 									</div>
 									<div className='ms-3'>
+										<a href='/PowerOfDataAnalytics'>
 										<h6>The Power of Data Analytics: How It Can Help You Make Better Decisions</h6>
+										</a>
 										<p>June 21,2023</p>
 									</div>
 								</div>
@@ -126,7 +134,7 @@ const HelpingBusinessAchieveData = () => {
 						</Fade>
 						<Fade direction='right' triggerOnce={true} delay={200}>
 							<div className='recent-post-social-header'>
-								<div className='recent-post-social'>
+								<div className='recent-post-social tect-center'>
 									<div className='d-flex recent-post-social-follow-us'>
 										<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
 										<h6>Follow us to ahieve more</h6>
