@@ -136,7 +136,7 @@ a{
    padding-top: 100px;
 }
 .home-attachment img{
-    height: 50vh;
+    height: 100%;
     width: 32vw;
     border-radius: 10px;
 }
@@ -144,7 +144,7 @@ a{
     margin-top: 30px;
 }
 .home-attachment2 img{
-    height: 20vh;
+    height: 100%;
 		width: 12vw;
     border-radius: 10px;
     
@@ -154,7 +154,7 @@ a{
     margin-top: 50px;
 }
 .home-attachment3 img{
-    height: 20vh; 
+    height: 100%; 
 		width: 12vw;
     border-radius: 10px; 
 }
@@ -747,7 +747,7 @@ background-color: #1da1f2;
 }
 .datablog-post img{
     width: 100%;
-    height: 50vh;
+    height: 100%;
     margin-bottom: 20px;
     border-radius: 10px;
     object-fit: cover;
@@ -1175,15 +1175,14 @@ background-color: #1da1f2;
      margin-top: 60px;
  }
  .home-attachment2 img{
-     height: 20vh !important;
+     
 		 width: 45vw;
  }
  .home-attachment3{
      margin-left:15px;
      margin-top: 30px;
  }
- .home-attachment3 img{
-     height: 20vh !important;   
+ .home-attachment3 img{  
 		 width: 40vw;
  }
  .home-background-image4{
@@ -1299,13 +1298,13 @@ background-color: #1da1f2;
 		margin-left: 30px !important;
     background-color: white;
     margin-bottom: 30px;
-		height: 75vh;
+		height: 100%;
 		text-align: center;
 		
 }
 
 .user-header img{
-    height: 50vh;
+    height: 100%;
     margin-top: 5px;
     border-radius: 5px;
     width: 95% !important;
@@ -1899,7 +1898,7 @@ form{
 	 margin-top: 60px;
 }
 .home-attachment2 img{
-	height: 120px !important;
+	
 	 width: 45vw !important; 
 }
 .home-attachment3{
@@ -1907,14 +1906,14 @@ form{
 	 margin-top: 30px;
 }
 .home-attachment3 img{
-	 height: 120px !important;
+
 	 width:  45vw !important;   
 }
 .user{
 	margin-left: 50px;
 	width: 60vw !important;
 	text-align: center;
-	height: 70vh !important;
+	height: 100%;
 	background-color: white;
 	margin-bottom: 30px;
 }
@@ -1922,7 +1921,7 @@ form{
 	font-size: 18px !important;
 }
 .user-header img{
-	height: 45vh !important;
+	height:100%;
 	
 	margin-top: 5px;
 	border-radius: 5px;
@@ -2352,7 +2351,7 @@ form{
 	 margin-top: 60px;
 }
 .home-attachment2 img{
-	 height: 32vh;
+
 	 width: 40vw;
 }
 .home-attachment3{
@@ -2360,7 +2359,7 @@ form{
 	 margin-top: 30px;
 }
 .home-attachment3 img{
-	 height: 30vh; 
+	
 	 width: 35vw;  
 }
 .home-articles-header button{
@@ -2428,12 +2427,12 @@ form{
 	
 	width: 28vw;
 	text-align: center;
-	height: 80%;
+	height: 100%;
 	background-color: white;
 	margin-bottom: 30px;
 }
 .user-header img{
-	height: 40vh;
+	height: 100%;
 	margin-top: 5px;
 	border-radius: 5px;
 	width: 26vw;
@@ -2495,7 +2494,7 @@ form{
 	width: 40vw;
 }
 .datablog-post img{
-	width: 40vw ;
+	width: 100% ;
 }
 .datablog-post h6{
 	width: 40vw;
@@ -2836,7 +2835,7 @@ form{
 	 margin-top: 60px;
 }
 .home-attachment2 img{
-	 height: 32vh;
+
 	 width: 40vw;
 }
 .home-attachment3{
@@ -2844,7 +2843,7 @@ form{
 	 margin-top: 30px;
 }
 .home-attachment3 img{
-	 height: 30vh; 
+	
 	 width: 35vw;  
 }
 .home-articles-header button{
@@ -2912,12 +2911,12 @@ form{
 	
 	width: 28vw;
 	text-align: center;
-	height: 80%;
+	height: 100%;
 	background-color: white;
 	margin-bottom: 30px;
 }
 .user-header img{
-	height: 40vh;
+	height: 100%;
 	margin-top: 5px;
 	border-radius: 5px;
 	width: 26vw;
@@ -2979,7 +2978,8 @@ form{
 	width: 40vw;
 }
 .datablog-post img{
-	width: 40vw ;
+	width: 100% ;
+	height: 100%;
 }
 .datablog-post h6{
 	width: 40vw;
@@ -3370,7 +3370,10 @@ form{
 	}
 	.user{
 		margin-right: 300px;
-		height: 640px;
+		height: 100%
+	}
+	.user img{
+		height: 100%;
 	}
 	.user h5{
 		font-size: 40px;
