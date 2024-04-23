@@ -917,20 +917,22 @@ background-color: #1da1f2;
 }
 
 @media (min-width:220px) and (max-width:400px) {
-	/* html,body{
+	html,body{
 		width: 100%;
 		height: 100%;
 		margin: 0;
 		padding: 0;
 		overflow-x: hidden;
-	} */
+	}
   .nav-text{
 		display: none;
 	}
 	.navbar button{
 		display: block;
 	}
-	
+	.carousel-inner{
+		width: 100%;
+	}
     .background-image{
         padding-top: 10px !important;
        padding-bottom: 0px;
@@ -1535,6 +1537,9 @@ form{
     padding-bottom: 50px;
     margin-bottom: 20px;
 }
+.carousel-inner{
+	width: 100%;
+}
 .about-background-image h5, .services-background-image h5{
     font-size: 18px !important;
 		
@@ -2103,6 +2108,9 @@ form{
 	.navbar button{
 		display: block;
 	}
+	.carousel-inner{
+		width: 100%;
+	}
 	.background-image{
 		height: 100%;
 		padding-top: 100px;
@@ -2589,6 +2597,9 @@ form{
 		padding-top: 100px;
 		padding-bottom: 0px;
 }
+.carousel-inner{
+	width: 100%;
+}
 .background-image .container{
 		display: block !important;
 }
@@ -3006,7 +3017,7 @@ form{
 	width: 90%;
 }
 .carousel-inner{
-	width: 85vw;
+	width: 100%
 }
 form{
 	margin-left: 15px;
