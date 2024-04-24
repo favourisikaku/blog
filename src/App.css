@@ -1525,10 +1525,10 @@ form{
 }
 .stat img{
     width: 140px !important;
-    height: 90px !important;
+    height: 100% !important;
 }
 .stat img:nth-child(1){
-		margin-top: -550%;
+		margin-top: -580%;
     margin-left: 0px !important;
 }
 .stat img:nth-child(2){
@@ -1632,13 +1632,13 @@ form{
 }
 .stat img{
 	width: 30vw !important;
-	height: 15vh !important;
+	height: 100% !important;
 
 }
 .stat img:nth-child(1){
 	margin-top: -570%;
 	margin-left: 10px;
-	height:20vh !important ;
+	height:100% !important ;
 }
 .stat img:nth-child(2){
 	margin-top: -300%;
@@ -2510,13 +2510,13 @@ form{
 }
 .stat img{
 	width: 25vw ;
-	height: 20vh ;
+	height: 100% ;
 
 }
 .stat img:nth-child(1){
 	margin-top: -560%;
 	margin-left: 10px;
-	height:20vh !important ;
+	height:100% !important ;
 }
 .stat img:nth-child(2){
 	margin-top: -280%;
@@ -2997,7 +2997,7 @@ form{
 }
 .stat img{
 	width: 20vw ;
-	height: 20vh ;
+	height: 100% ;
 
 }
 .stat img:nth-child(1){
