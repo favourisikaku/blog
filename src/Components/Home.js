@@ -85,7 +85,9 @@ const Home = () => {
 										<img src={firstbank} class="d-block " alt="..."/>
 										<img src={dhl} class="d-block " alt="..."/>
 										<img src={facebook} class="d-block " alt="..."/>
-										<img src={dstv} class="d-block w-25" alt="..."/>
+										<img src={dstv} class="d-block" alt="..."/>
+										<img src={uba} class="d-block " alt="..."/>
+										<img src={firstbank} class="d-block " alt="..."/>
 									</div>	
 								</div>
 							</div>

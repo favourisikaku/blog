@@ -77,6 +77,15 @@ a{
 }
 .carousel-item{
     margin-right: 200px;
+		animation: scrolling 10s infinite linear;
+}
+@keyframes scrolling {
+	0%{
+		transform: 	translateX(1%);
+	}
+	100%{
+		transform: 	translateX(-70%);
+	}
 }
 .carousel-item img{
     width: 150px;
@@ -933,6 +942,17 @@ background-color: #1da1f2;
 	.carousel-inner{
 		width: 100%;
 	}
+	.carousel-item{
+		animation: scrolling 30s infinite linear;
+	}
+	@keyframes scrolling {
+		0%{
+			transform: 	translateX(1%);
+		}
+		100%{
+			transform: 	translateX(-280%);
+		}
+	}
     .background-image{
         padding-top: 10px !important;
        padding-bottom: 0px;
@@ -1539,6 +1559,17 @@ form{
 .carousel-inner{
 	width: 100%;
 }
+.carousel-item{
+	animation: scrolling 30s infinite linear;
+}
+@keyframes scrolling {
+	0%{
+		transform: 	translateX(1%);
+	}
+	100%{
+		transform: 	translateX(-200%);
+	}
+}
 .about-background-image h5, .services-background-image h5{
     font-size: 18px !important;
 		
@@ -2104,6 +2135,17 @@ form{
 	.nav-text{
 		display: none;
 	}
+	.carousel-item{
+		animation: scrolling 20s infinite linear;
+	}
+	@keyframes scrolling {
+		0%{
+			transform: 	translateX(1%);
+		}
+		100%{
+			transform: 	translateX(-70%);
+		}
+	}
 	.navbar button{
 		display: block;
 	}
@@ -2598,6 +2640,9 @@ form{
 }
 .carousel-inner{
 	width: 100%;
+}
+.carousel-item{
+	animation: scrolling 20s infinite linear;
 }
 .background-image .container{
 		display: block !important;
