@@ -1904,12 +1904,16 @@ form{
 }
 form{
 	margin-left: 15px;
+	margin: auto 10%;
 }
 .form-container{  
 	
 	padding: 30px 0px;
-	width: 100%;
+	width: 90%;
 }
+/* textarea{
+	width: 100%;
+} */
 .form-control{
 	padding: 15px 20px;
 	width: 70vw;
@@ -2701,9 +2705,10 @@ form{
 }
 form{
 	margin-left: 15px;
+	margin: auto 10%;
 }
 .form-container{  
-
+	margin-left: 25px;
 	padding: 30px 0px;
 	width: 100%;
 }
@@ -2716,7 +2721,7 @@ form{
 }
 
 .form-group{
-	width: 45%;
+	width: 75%;
 }
 .contactus-item-header{
 	justify-content: center;
@@ -3189,9 +3194,10 @@ form{
 }
 form{
 	margin-left: 15px;
+	margin: auto 10%;
 }
 .form-container{  
-	
+	margin-left: 25px;
 	padding: 30px 0px;
 	width: 100%;
 }
@@ -3204,7 +3210,7 @@ form{
 }
 
 .form-group{
-	width: 45%;
+	width: 75%;
 }
 .contactus-item-header{
 	justify-content: center;
@@ -3609,6 +3615,9 @@ form{
 	}
 	.form-container h2{
 		font-size: 50px;
+	}
+	.get-in-touch p, .get-in-touch i {
+		font-size: 30px;
 	}
 	.form-group label{
 		font-size: 45px;
