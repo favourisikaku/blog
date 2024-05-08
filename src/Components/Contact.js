@@ -34,46 +34,60 @@ const Contact = () => {
 					<div className='form-container' >
 						<div>
 							<Fade direction='down' triggerOnce={true}>
-							<h2>Send your Query Here</h2>
+							<div className='d-flex get-in-touch'>
+								<div className='d-flex'>
+									<i aria-hidden="true" class="fas fa-map-marked-alt mt-1 me-2"></i>
+									<p>Lagos, NIgeria</p>
+								</div>
+								<div className='d-flex'>
+									<i aria-hidden="true" class="fas fa-phone-alt mt-1 me-2"></i>									
+									<p>+234.....</p>
+								</div>
+								<div className='d-flex'>
+									<i aria-hidden="true" class="fas fa-mail-bulk mt-1 me-2"></i>
+									<p>1234@email.com</p>
+								</div>
+							</div>
 							</Fade>
 						</div>
 						<Zoom  triggerOnce={true}>
 							<form action="/submit" method="post ">
 								<div class="row">
 									<div class="form-group col-6">
-										<label for="first_name" className='mb-2 label'>First Name <span class="required">*</span></label>
+										<label for="first_name" className='mb-2 label'>First Name <span class="required">*(required)</span></label>
 										<input type="text" class="form-control" id="first_name" name="first_name" placeholder='First name here' required/>
-										<span class="error-message">This field is required.</span>
+										
 									</div>
 
 									<div class="form-group col-6">
-										<label for="last_name" className='mb-2 label'>Last Name <span class="required">*</span></label>
+										<label for="last_name" className='mb-2 label'>Last Name </label>
 										<input type="text" class="form-control" id="last_name" name="last_name" placeholder='Last name here' required/>
-										<span class="error-message">This field is required.</span>
+										
 									</div>
 								</div>
 								<div className='row'>
 									
-									<div class="form-group col-6">
-										<label for="email" className='mb-2 label'>Email Address <span class="required">*</span></label>
+									<div class="form-group col-12">
+										<label for="email" className='mb-3 label'>Email Address <span class="required">*(required)</span></label>
 										<input	type="email" class="form-control" id="email" name="email" placeholder='Add Email' required/>
-										<span class="error-message">This field is required.</span>
+										
 									</div>	
 
-									<div class="form-group col-6">
-										<label for="subject className='mb-2 label'">Subject <span class="required">*</span></label>
+									<div class="form-group col-12">
+										<label for="subject" className='mb-3 label'>Subject </label>
 										<input type="text" class="form-control" id="subject" name="subject " placeholder='How can we help you?' required/>
-										<span class="error-message">This field is required.</span>
+										
 									</div>
 								</div>
 
 								<div class="form-group col-12">
-									<label for="comments" className='mb-2 label'>Comments / Questions <span class="required">*</span></label>
+									<label for="comments" className='mb-2 label'>Message - Please input full details on what we can help you with</label>
 									<textarea rows='6' class="form-control" id="comments" name="comments"placeholder='Comments' required></textarea>
-									<span class="error-message">This field is required.</span>
 								</div>
-
-								<input type="submit" class="btn btn-primary mt-4" value="Send Message"/>
+								<div className='contact-btn mt-5'>
+									<button>Send Message</button>
+								
+								</div>
 							</form>
 						</Zoom>
 					</div>

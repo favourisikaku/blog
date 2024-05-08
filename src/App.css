@@ -517,7 +517,7 @@ ul{
     color: white;
     background-color: #69727d;
 }
-
+fa
 .footer-header h5,.company-section h6, .services-social h1,.recent-post-social-header h1{
     color: white;
 }
@@ -527,7 +527,7 @@ ul{
 .services-social p, .services-social h5, .services-social i{
 	color: white;
 }
-.fa-phone-alt{
+/* .fa-phone-alt{
     color: #00A6CF;
     background-color: #3C4275BA;
     height: 70px;
@@ -535,7 +535,7 @@ ul{
     padding: 21px;
     font-size: 25px;
     border-radius: 35px;
-}
+} */
 .company-section i{
     border: 1px none;
     border-radius: 15px;
@@ -593,6 +593,13 @@ ul{
     color: #0A0F4D;;
     font-weight: bold;
 		width: 100%;
+}
+.get-in-touch{
+	justify-content: space-around;
+	align-items: center;
+}
+.get-in-touch, .get-in-touch p{
+	color: #0058E6;
 }
 .stat img{
     width: 13vw;
@@ -910,7 +917,7 @@ ul{
 	width: 100%;
 }
 .form-container{  
-    background-color: #F4F7FF;
+    /* background-color: #F4F7FF; */
     padding: 50px 50px;
     
 }
@@ -924,6 +931,19 @@ ul{
     border: none;
     padding: 15px 25px;
     font-weight: 600;
+}
+.contact-btn{
+	display: flex;
+	justify-content: center;
+
+}
+.contact-btn button{
+    padding: 10px 20px;
+    background-color: #0058e6;
+    border: none;
+    color: white;
+    /* font-weight: bold; */
+    border-radius: 5px;
 }
 .contactus-social .d-flex{
 	justify-content: center;
@@ -970,19 +990,20 @@ ul{
     background-color: #CDDCFF;
 }
 .form-control{
-    padding: 20px 20px;
+    padding: 15px 20px;
+	box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.2);
     
 }
 .label{
     font-weight: 500;
-    color:  #7B85AA;
+    /* color:  #7B85AA; */
 }
 .form-group{
     margin-top: 30px;
 }
 .form-group span{
-    color: #00A6CF;
-    font-weight: 700;
+    color: #0058E6;
+    font-weight: bold;
 }
 
 @media (min-width:220px) and (max-width:400px) {
@@ -1502,9 +1523,13 @@ ul{
 form{
     margin-left: 15px;
 }
+.get-in-touch{
+	margin-left: 30%;
+	display: block !important;
+}
 .form-container{  
-   width: 90%;
-    background-color: #F4F7FF;
+   width: 100%;
+   
     padding: 30px 0px;
 }
 .form-control{
@@ -1640,6 +1665,10 @@ form{
 	100%{
 		transform: 	translateX(-200%);
 	}
+}
+.get-in-touch{
+	display: block !important;
+	margin-left: 30%;
 }
 .about-background-image h5, .services-background-image h5{
     font-size: 18px !important;
