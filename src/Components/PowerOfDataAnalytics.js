@@ -1,8 +1,8 @@
 import React from 'react'
 import user from '../assets/user.jpeg'
-import img3 from '../assets/img3.jpg'
-import img4 from '../assets/img4.jpg'
-import img5 from '../assets/img5.jpeg'
+import img3 from '../assets/img3.af4f50811d29b7c87650.jpg.png'
+import img4 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
+import img5 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
 import { Fade, Zoom } from 'react-awesome-reveal'
 import footerlogo from '../assets/db_logo_grey.png'
 
@@ -137,34 +137,7 @@ const PowerOfDataAnalytics = () => {
 								</div>
 							</div>
 						</Fade>
-						<Fade direction='right' triggerOnce={true} delay={200}>
-							<div className='recent-post-social-header'>
-								<div className='recent-post-social'>
-									<div className='d-flex recent-post-social-follow-us'>
-										<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
-										<h6>Follow us to ahieve more</h6>
-									</div>
-									<div className='socials text-center'>
-										<i class="fab fa-facebook"></i>
-										<i class="fab fa-twitter"></i>
-										<i class="fab fa-instagram"></i>
-										<i class="fab fa-youtube"></i>
-										<i class="fab fa-linkedin"></i>
-										<i class="fab fa-tiktok"></i>
-									</div>
-									<div>
-										<h1>The Power of Data Analytics</h1>
-										<p>Share the Love</p>
-									</div>
-									<div className='home-socials'>
-										<i class="fab fa-facebook"></i>
-										<i class="fab fa-twitter"></i>
-										<i class="fab fa-linkedin"></i>
-										<i class="fas fa-envelope"></i>
-									</div>
-								</div>
-							</div>
-						</Fade>
+	
 					</div>
 				</div>
 				<div className='d-flex container about-author mt-5'>

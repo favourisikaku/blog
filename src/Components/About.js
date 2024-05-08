@@ -1,12 +1,14 @@
 import React from 'react'
 import user from '../assets/user.jpeg'
-import img2 from '../assets/img2.jpg'
-import img6 from '../assets/databrains-team-isle-2048x1365.jpg'
-import img7 from '../assets/unsplash_5QgIuuBxKwM-1024x683.jpg'
+import img2 from '../assets/img4.c30081624b5e75db2d05.jpg (1).png'
+import img6 from '../assets/databrains-team-isle-2048x1365.466352a642ae9bed5d03.jpg.png'
+import img7 from '../assets/unsplash_5QgIuuBxKwM-1024x683.115800ef8b985faca11c.jpg.png'
 import img8 from '../assets/Stats03.png'
 import { Fade, Zoom } from 'react-awesome-reveal'
 import footerlogo from '../assets/db_logo_grey.png'
-
+import user1 from '../assets/img2.bbcf183bb4aedea86f9e.jpg.png'
+import user2 from '../assets/img2.bbcf183bb4aedea86f9e.jpg-1.png'
+import user3 from '../assets/img2.bbcf183bb4aedea86f9e.jpg-2.png'
 
 const About = () => {
   return (
@@ -15,8 +17,10 @@ const About = () => {
 				<div className='about-background-image'>
 					<Fade direction='down' triggerOnce={true}>
 					<div className='container'>
-
-						<h5>About Us</h5>
+						<div className='d-flex'>
+							<i className="fas fa-dot-circle mt-1 pe-2"></i>
+							<h5>About Us</h5>
+						</div>
 						<h1>Get to know us</h1>
 						<p>We use the latest data analytics technologies and best practices to ensure that our solutions are effective and efficient.</p>
 					</div>
@@ -24,7 +28,7 @@ const About = () => {
 				</div>				
 			</section>
 
-			<section className='home-section-attachment-header'>
+			<section className=' about-section-attachment-header'>
 				<div className='container d-flex'>
 					
 					<div className='growing-demand-data-analytics-header'>
@@ -34,27 +38,15 @@ const About = () => {
 							<h5>A strategy driven consulting company</h5>
 						</div>	
 						<div className='mb-5'>
-							<h1>The Growing Demand for Data Analytics</h1>
+							<h1>Missions and Visions</h1>
 						</div>
 						</Fade>
 						<Fade direction='left' delay={400} triggerOnce={true}>				
 						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
-							<h2 >90 %</h2>
-							<p>Of the world’s data has been created in the last two years.</p>
+							<p>Lorem ipsum dolor sit amet consectetur. Integer eu enim congue neque interdum velit sit in tristique. Dui faucibus adipiscing quam at pellentesque nibh pretium laoreet quisque. Aliquam enim at egestas pretium. Semper non sit a lorem lobortis justo. Vestibulum odio gravida sollicitudin et enim a habitasse a. Libero sed odio convallis enim mi varius vel. Nulla at lacinia at diam feugiat. Sit sit pretium feugiat urna urna sed diam. Hendrerit lorem amet turpis netus scelerisque et cras morbi. Ultrices dolor elementum arcu sagittis. Faucibus egestas adipiscing ut eget neque pellentesque feugiat ornare. Feugiat egestas amet amet in. Convallis nisl in purus amet. Vitae odio urna neque semper pulvinar sit. Praesent scelerisque consequat in nibh rhoncus. Volutpat arcu leo ante nullam nunc vel amet ut. Semper feugiat amet turpis velit facilisi faucibus. Neque tortor in non libero sit dui enim. Imperdiet adipiscing integer nisl morbi nulla. Integer facilisi ultrices urna sed ornare egestas sed. Augue leo nulla consectetur dictumst consectetur bibendum nunc pharetra. Varius est gravida molestie quam lectus enim sollicitudin risus neque. Et maecenas a penatibus tempor proin a. Varius est gravida molestie quam lectus enim sollicitudin risus neque. Et maecenas a penatibus tempor proin a.</p>
 						</div>
 						</Fade>
-						<Fade direction='left' delay={600} triggerOnce={true}>
-						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
-							<h2>58 %</h2>
-							<p>Data-driven companies are more likely to beat revenue goals.</p>
-						</div>
-						</Fade>
-						<Fade direction='left' delay={800} triggerOnce={true}>
-						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
-							<h2>$ 274 +</h2>
-							<p>The global data analytics market is expected to reach $274.3 billion by 2025.</p>
-						</div>
-						</Fade>
+
 					</div>
 					
 					
@@ -105,40 +97,7 @@ const About = () => {
 								<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
 								<p>We recommend actions that can help you improve your business performance.</p>
 							</div>
-							<div className='services-contact d-flex mt-5'>
-								<div className='d-flex me-5'>
-									<div className='me-3'>
-										<img src={user}/>
-									</div>
-									<div>
-										<h2 className='text-light'>Dr. Fauziya</h2>
-										<p>Lead Data Engineer</p>
-									</div>							
-								</div>
-								<div className='d-flex services-contact-whatsapp ms-5'>
-									<div className='me-3'>
-										<i class="fas fa-phone-alt"></i>
-									</div>
-									<div>
-										<h2 className='text-light'>+234........</h2>
-										<p>WhatsApp & SMS</p>
-									</div>						
-								</div>
-							</div>
-							<div className='services-connect'>
-								<div className='d-flex services-connect-social-header'>
-									<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
-									<h5>Let's Connect on Social</h5>
-								</div>
-								<div className='socials'>
-									<i class="fab fa-facebook"></i>
-									<i class="fab fa-twitter"></i>
-									<i class="fab fa-instagram"></i>
-									<i class="fab fa-youtube"></i>
-									<i class="fab fa-linkedin"></i>
-									<i class="fab fa-tiktok"></i>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</Fade>
@@ -156,7 +115,7 @@ const About = () => {
 						<div>
 						<div className='d-flex'>
 							<Fade direction='down' triggerOnce={true}>
-							<i class="fas  fa-dot-circle mt- me-2"></i>
+							<i class="fas  fa-dot-circle me-2"></i>
 							<h6 className=''>Our Team Lead</h6>
 							</Fade>
 						</div>
@@ -169,19 +128,19 @@ const About = () => {
 						<div className='user-images-header d-flex'>
 							<Fade  triggerOnce={true} delay={400}>
 							<div className='user'>
-								<img src={user} />
-								<h5>Dr. Fauziya Yakasai</h5>
+								<img src={user1} />
+								<h5>Jane Doe</h5>
 								<p>Co-Founder/Data Analyst</p>
 							</div>
 							<div className='user'>
-								<img src={user} />
-								<h5>Dr. Nura Abubakar</h5>
-								<p>Technology Officer</p>
+								<img src={user2} />
+								<h5>Jane Doe</h5>
+								<p>Co-Founder/Data Analyst</p>
 							</div>
 							<div className='user'>
-								<img src={user} />
-								<h5>Mr. Mustapha</h5>
-								<p>Systems Analyst</p>
+								<img src={user3} />
+								<h5>Jane Doe</h5>
+								<p>Co-Founder/Data Analyst</p>
 							</div>
 							</Fade> 
 						</div>
@@ -189,35 +148,6 @@ const About = () => {
 				</div>
 			</section>
 
-			<section >
-				<Zoom triggerOnce={true}>
-				<div className='rating-header'>
-					<div className=''>
-						<div>
-							<h5 className=''>We are top star rating</h5>
-						</div>
-						<div>
-							<i class="elementor-star-full">★</i>
-							<i class="elementor-star-full">★</i>
-							<i class="elementor-star-full">★</i>
-							<i class="elementor-star-full">★</i>
-							<i class="elementor-star-full">★</i>
-						</div>
-					</div>
-					<div>
-						<div>
-							<h1>Your Data, Your Insights, Your Success</h1>
-						</div>
-						<div>
-							<p>DataBrains is a data analytics company that helps businesses of all sizes make better decisions with data. We have a <br/>team of experts with decades of experience in data management, business intelligence, and advanced analytics.</p>			
-						</div>
-						<div>						
-						<a href='/DataBlog'><button className=''>Discover More...</button></a>
-						</div>
-					</div>
-				</div>
-				</Zoom>
-			</section>
 
 			<footer className=''>
 				<Fade direction='up' triggerOnce={true}>

@@ -1,7 +1,7 @@
 import React from 'react'
-import img4 from '../assets/img4.jpg'
+import img4 from '../assets/img4.c30081624b5e75db2d05.jpg (1).png'
 import user from '../assets/user.jpeg'
-import img1 from '../assets/databrain_lady3.png'
+import img1 from '../assets/databrain_lady3.9c1f0ac3ec2160d89264.png.png'
 import stats from '../assets/Stats03.png'
 import analytics from '../assets/Analytics.png'
 import { Fade, Zoom } from 'react-awesome-reveal'
@@ -16,7 +16,10 @@ const Services = () => {
 				<div className='services-background-image'>
 				<Fade direction='down' triggerOnce={true}>
 					<div className='container '>
-						<h5>Services</h5>
+						<div className='d-flex'>
+							<i class="fas  fa-dot-circle mt-1  me-2"></i>
+							<h5>Services</h5>
+						</div>
 						<h1>Premium Data Services</h1>
 						<p>We use the latest data analytics technologies and best practices to ensure that our solutions are effective and efficient.</p>
 					</div>
@@ -165,40 +168,7 @@ const Services = () => {
 								<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
 								<p>We recommend actions that can help you improve your business performance.</p>
 							</div>
-							<div className='services-contact d-flex mt-5'>
-								<div className='d-flex me-5'>
-									<div className='me-3'>
-										<img src={user}/>
-									</div>
-									<div>
-										<h2 className='text-light'>Dr. Fauziya</h2>
-										<p>Lead Data Engineer</p>
-									</div>							
-								</div>
-								<div className='d-flex services-contact-whatsapp ms-5'>
-									<div className='me-3'>
-										<i class="fas fa-phone-alt"></i>
-									</div>
-									<div>
-										<h2 className='text-light'>+234........</h2>
-										<p>WhatsApp & SMS</p>
-									</div>						
-								</div>
-							</div>
-							<div className='services-connect'>
-								<div className='d-flex services-connect-social-header'>
-									<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
-									<h5>Let's Connect on Social</h5>
-								</div>
-								<div className='socials'>
-									<i class="fab fa-facebook"></i>
-									<i class="fab fa-twitter"></i>
-									<i class="fab fa-instagram"></i>
-									<i class="fab fa-youtube"></i>
-									<i class="fab fa-linkedin"></i>
-									<i class="fab fa-tiktok"></i>
-								</div>
-							</div>
+						
 						</div>
 					</div>
 				</Fade>

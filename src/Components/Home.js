@@ -1,16 +1,17 @@
 import React from 'react'
-import img3 from '../assets/img3.jpg'
-import img4 from '../assets/img4.jpg'
-import img5 from '../assets/img5.jpeg'
-import img6 from '../assets/databrains-team-isle-2048x1365.jpg'
-import img7 from '../assets/unsplash_5QgIuuBxKwM-1024x683.jpg'
+import img3 from '../assets/img3.af4f50811d29b7c87650.jpg.png'
+import img4 from '../assets/img4.c30081624b5e75db2d05.jpg (1).png'
+import img5 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
+import img6 from '../assets/databrains-team-isle-2048x1365.466352a642ae9bed5d03.jpg.png'
+import img7 from '../assets/unsplash_5QgIuuBxKwM-1024x683.115800ef8b985faca11c.jpg.png'
 import img8 from '../assets/Stats03.png'
+import img9 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
 import uba from '../assets/uba.png'
 import firstbank from '../assets/firstbank-2048x552.png'
 import facebook from '../assets/facebook-2048x396.png'
 import dstv from '../assets/dstv.png'
 import dhl from '../assets/dhl-2048x286.png'
-import main from '../assets/databrain_man1.png'
+import main from '../assets/databrain_man1.855c5ded3e93988bc641.png.png'
 import user from '../assets/user.jpeg'
 import { Fade, Zoom } from 'react-awesome-reveal'
 import stat from '../assets/Stats01.png'
@@ -70,7 +71,7 @@ const Home = () => {
 				</div>		
 			</section>
 
-			<section>
+			{/* <section>
 				<div className='container'>
 					<div className='d-flex home-carousel-header pt-5 pb-5'>
 						<div className='mt-4 home-carousel'>
@@ -113,7 +114,7 @@ const Home = () => {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 
 			<section className=''>
 				<div className='background-image-2'>
@@ -212,40 +213,7 @@ const Home = () => {
 								<i class="fas fa-chevron-circle-right mt-1 me-3"></i>
 								<p>We recommend actions that can help you improve your business performance.</p>
 							</div>
-							<div className='services-contact d-flex mt-5'>
-								<div className='d-flex me-5'>
-									<div className='me-3'>
-										<img src={user}/>
-									</div>
-									<div>
-										<h2 className='text-light'>Dr. Fauziya</h2>
-										<p>Lead Data Engineer</p>
-									</div>							
-								</div>
-								<div className='d-flex services-contact-whatsapp ms-2'>
-									<div className='me-3'>
-										<i class="fas fa-phone-alt"></i>
-									</div>
-									<div>
-										<h2 className='text-light'>+234........</h2>
-										<p>WhatsApp & SMS</p>
-									</div>						
-								</div>
-							</div>
-							<div className='services-connect'>
-								<div className='d-flex services-connect-social-header'>
-									<i class="fas fa-dot-circle mt-3 me-2 mb-4"></i>
-									<h5>Let's Connect on Social</h5>
-								</div>
-								<div className='socials'>
-									<i class="fab fa-facebook"></i>
-									<i class="fab fa-twitter"></i>
-									<i class="fab fa-instagram"></i>
-									<i class="fab fa-youtube"></i>
-									<i class="fab fa-linkedin"></i>
-									<i class="fab fa-tiktok"></i>
-								</div>
-							</div>
+
 						</div>
 					</div>
 				</Fade>
@@ -367,7 +335,7 @@ const Home = () => {
 					<Fade direction='down' triggerOnce={true}>
 					<div className='home-articles-post'>
 						<div>
-							<img src={img4} />
+							<img src={img9} />
 							<h6>The Power of Data Analytics: How It Can Help You Make Better Decisions</h6>
 							<div>
 								<i aria-hidden="true" class="fas fa-user me-2"></i><span>Dr. Fauziya</span>
