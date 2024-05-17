@@ -3004,6 +3004,9 @@ form{
 .background-image{
 	/* padding-bottom: 100px; */
 }
+.datablog-post-container{
+	display: block !important;
+}
 .background-image img{
 		height: 700px;
 		margin-top: 40px;
