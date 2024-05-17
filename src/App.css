@@ -3007,6 +3007,9 @@ form{
 .datablog-post-container{
 	display: block !important;
 }
+.datablog-post-image-header p{
+	width: 100%;
+}
 .background-image img{
 		height: 700px;
 		margin-top: 40px;
