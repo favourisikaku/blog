@@ -1,10 +1,9 @@
 import React from 'react'
-import img3 from '../assets/img3.af4f50811d29b7c87650.jpg.png'
-import img4 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
-import img5 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
+import img3 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
+import img4 from '../assets/img3.af4f50811d29b7c87650.jpg.png'
+import img5 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
 import user from '../assets/user.jpeg'
 import { Fade, Zoom } from 'react-awesome-reveal'
-import footerlogo from '../assets/db_logo_grey.png'
 
 
 const DataAsNewOil = () => {
@@ -17,7 +16,7 @@ const DataAsNewOil = () => {
 						<h1>Data as the New Oil: Unlocking the Untapped Potential</h1>
 						</Fade>
 					</div>
-					<div className='d-flex container mt-4'>
+					{/* <div className='d-flex container mt-4'>
 						<Fade top>
 						<div>
 							<img src={user}/>
@@ -27,19 +26,19 @@ const DataAsNewOil = () => {
 							<h6>Author</h6>
 						</div>
 						</Fade>
-					</div>
+					</div> */}
 				</div>
 			</section> 
 
 			<section className='datablog-post-main-container'>
-				<div className='datablog-post-container d-flex'>
+				<div className='datablog-post-container container d-flex'>
 					<div className='datablog-post-header'>
 						<div className='datablog-post-image-header container'>
-							<Fade direction='down' triggerOnce={true}>
+							{/* <Fade direction='down' triggerOnce={true}>
 							<img src={img5} />
-							</Fade>
+							</Fade> */}
 							<Fade direction='up' triggerOnce={true}>
-							<p className='mt-3'>	
+							<p className=''>	
 								As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other companies. When I realized how much these firms cost for a given amount of data, I began to wonder why such a high price was being charged for such a service. <br />
 
 								<br />Data is often a set of numerical values that may be evaluated and used to make decisions. Data can also refer to digital information that can be stored and accessed by a computer. Machine learning (ML) models, for example, are trained on data and then utilized to make the most crucial decisions. Machine learning is a branch of artificial intelligence (AI) and computer science that aims to replicate human learning by improving its accuracy via the use of data and algorithms. Machine learning is used in about 77% of today’s devices (“What Consumers Really Think About AI: A Global Study,” Pegasystems, 2017). Machine learning is enabling us to accomplish more than we could previously, in a fast and confident manner.<br />
@@ -137,29 +136,26 @@ const DataAsNewOil = () => {
 					<Zoom>
 					<form action="/submit" method="post ">
 						<div class="form-group col-8">
-							<label for="comments" className='mb-2 label'>Comments <span class="required">*</span></label>
-							<textarea rows='8' class="form-control" id="comments" name="comments" required></textarea>
-							<span class="error-message">This field is required.</span>
+							<label for="comments" className='mb-2 label' >Comments <span class="required">* (required)</span></label>
+							<textarea rows='8' class="form-control" id="comments" name="comments" placeholder='Input text' required></textarea>
+							
 						</div>
 
 							<div class="form-group col-8">
-								<label for="first_name" className='mb-2 label'>Name <span class="required">*</span></label>
-								<input type="text" class="form-control" id="first_name" name="first_name"  required/>
-								<span class="error-message">This field is required.</span>
+								<label for="first_name" className='mb-2 label'>Name <span class="required">* (required)</span></label>
+								<input type="text" class="form-control" id="first_name" name="first_name" placeholder='Input Name'  required/>
 							</div>
 
 
 							
 							<div class="form-group col-8">
-								<label for="email" className='mb-2 label'>Email <span class="required">*</span></label>
-								<input	type="email" class="form-control" id="email" name="email" required/>
-								<span class="error-message">This field is required.</span>
+								<label for="email" className='mb-2 label'>Email <span class="required">* (required)</span></label>
+								<input	type="email" class="form-control" id="email" name="email" placeholder='Input Valid Email Address' required/>
 							</div>	
 
 							<div class="form-group col-8">
-								<label for="email" className='mb-2 label'>Website <span class="required">*</span></label>
-								<input	type="email" class="form-control" id="email" name="email" required/>
-								<span class="error-message">This field is required.</span>
+								<label for="email" className='mb-2 label'>Website <span class="required">* (required)</span></label>
+								<input	type="email" class="form-control" id="email" name="website" required placeholder='Input'/>
 							</div>	
 
 						<input type="submit" class="btn btn-primary mt-4 post-btn" value="Post Comment"/>
@@ -178,13 +174,9 @@ const DataAsNewOil = () => {
 									<a href='/'>
 									<h1>Logo</h1>
 									</a>
-									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
 								</div>
-								<div className='d-flex lets-connect-header'>
-									<i className="fas fa-dot-circle mt-1 pe-2"></i>
-									<h6 className='mb-4 text'>Let's Connect on Social</h6>
-								</div>
-								<div className='socials'>
+	
+								<div className='socials mt-3'>
 									<i class="fab fa-facebook"></i>
 									<i class="fab fa-twitter"></i>
 									<i class="fab fa-instagram"></i>
@@ -212,21 +204,18 @@ const DataAsNewOil = () => {
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-phone-alt"></i>
 									<div>
-										<h6>Phone Number</h6>
 										<p>+234.....</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-mail-bulk"></i>
 									<div>
-										<h6>Email Us</h6>
 										<p>1234@email.com</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-map-marked-alt"></i>
 									<div>
-										<h6>Address</h6>
 										<p>+1234 road lagos</p>
 									</div>
 								</div>

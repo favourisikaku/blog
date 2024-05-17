@@ -28,7 +28,7 @@ const App = () => {
         <Route path='/PowerOfDataAnalytics'  element ={<PowerOfDataAnalytics />} />
         <Route path='/HelpingBusinessAchieveData'  element ={< HelpingBusinessAchieveData/>} />
         <Route path='/BigDataIsChanging'  element ={< BigDataIsChanging/>} />
-        <Route path='/ArtificialIntelligence'  element ={< ArtificialIntelligence/>} />
+        {/* <Route path='/ArtificialIntelligence'  element ={< ArtificialIntelligence/>} /> */}
       </Routes>   
     </div>
   );

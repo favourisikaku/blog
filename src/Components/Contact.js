@@ -1,7 +1,5 @@
 import React from 'react'
 import { Fade, Zoom } from 'react-awesome-reveal'
-import footerlogo from '../assets/db_logo_grey.png'
-
 
 const Contact = () => {
   return (
@@ -9,13 +7,14 @@ const Contact = () => {
       <section>
 		<div className='services-background-image'>
 			<Fade direction='down' triggerOnce={true}>
-			<div className='contactus-header'>
+				<div className='container'>
+			<div className='contactus-header '>
 				<div className='d-flex'>
-					<i class="fas fa-dot-circle mt-1 me-2"></i>
 					<h5>Contact Us</h5>
 				</div>
 				<h1>Get Support from us Anytime</h1>
 				<p>We use the latest data analytics technologies and best practices to ensure that our solutions are effective and efficient.</p>
+			</div>
 			</div>
 			</Fade>
 		</div>
@@ -55,13 +54,13 @@ const Contact = () => {
 								<div class="row">
 									<div class="form-group col-6">
 										<label for="first_name" className='mb-2 label'>First Name <span class="required">*(required)</span></label>
-										<input type="text" class="form-control" id="first_name" name="first_name" placeholder='First name here' required/>
+										<input type="text" class="form-control" id="first_name" name="first_name" placeholder='Input name' required/>
 										
 									</div>
 
 									<div class="form-group col-6">
 										<label for="last_name" className='mb-2 label'>Last Name </label>
-										<input type="text" class="form-control" id="last_name" name="last_name" placeholder='Last name here' required/>
+										<input type="text" class="form-control" id="last_name" name="last_name" placeholder='Input name' required/>
 										
 									</div>
 								</div>
@@ -69,7 +68,7 @@ const Contact = () => {
 									
 									<div class="form-group col-12">
 										<label for="email" className='mb-3 label'>Email Address <span class="required">*(required)</span></label>
-										<input	type="email" class="form-control" id="email" name="email" placeholder='Add Email' required/>
+										<input	type="email" class="form-control" id="email" name="email" placeholder='Input valid email address' required/>
 										
 									</div>	
 
@@ -82,7 +81,7 @@ const Contact = () => {
 
 								<div class="form-group col-12">
 									<label for="comments" className='mb-2 label'>Message - Please input full details on what we can help you with</label>
-									<textarea rows='6' class="form-control" id="comments" name="comments"placeholder='Comments' required></textarea>
+									<textarea rows='6' class="form-control" id="comments" name="comments"placeholder='Input text' required></textarea>
 								</div>
 								<div className='contact-btn mt-5'>
 									<button>Send Message</button>
@@ -95,7 +94,7 @@ const Contact = () => {
 			</div>
 		</section>
 
-      <section>
+      {/* <section>
 		<div className='contact-background-image2'>
 			<div className='container'>
 			< Fade direction='down' triggerOnce={true}>
@@ -152,9 +151,9 @@ const Contact = () => {
 			</div>
 		</div>
         
-      </section>
+      </section> */}
 
-	  <footer className=''>
+		<footer className=''>
 				<Fade direction='up' triggerOnce={true}>
 				<div className='footer-container'>
 					<div className='container'>
@@ -164,13 +163,9 @@ const Contact = () => {
 									<a href='/'>
 									<h1>Logo</h1>
 									</a>
-									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
 								</div>
-								<div className='d-flex lets-connect-header'>
-									<i className="fas fa-dot-circle mt-1 pe-2"></i>
-									<h6 className='mb-4 text'>Let's Connect on Social</h6>
-								</div>
-								<div className='socials'>
+	
+								<div className='socials mt-3'>
 									<i class="fab fa-facebook"></i>
 									<i class="fab fa-twitter"></i>
 									<i class="fab fa-instagram"></i>
@@ -198,21 +193,18 @@ const Contact = () => {
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-phone-alt"></i>
 									<div>
-										<h6>Phone Number</h6>
 										<p>+234.....</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-mail-bulk"></i>
 									<div>
-										<h6>Email Us</h6>
 										<p>1234@email.com</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-map-marked-alt"></i>
 									<div>
-										<h6>Address</h6>
 										<p>+1234 road lagos</p>
 									</div>
 								</div>
@@ -221,7 +213,7 @@ const Contact = () => {
 					</div>
 				</div>	
 				</Fade>	
-			</footer>
+		</footer>
     </div>
   )
 }

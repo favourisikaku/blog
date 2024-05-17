@@ -1,22 +1,17 @@
 import React from 'react'
-import img3 from '../assets/img3.af4f50811d29b7c87650.jpg.png'
-import img4 from '../assets/img4.c30081624b5e75db2d05.jpg (1).png'
-import img5 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
-import img6 from '../assets/databrains-team-isle-2048x1365.466352a642ae9bed5d03.jpg.png'
-import img7 from '../assets/unsplash_5QgIuuBxKwM-1024x683.115800ef8b985faca11c.jpg.png'
-import img8 from '../assets/Stats03.png'
-import img9 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
-import uba from '../assets/uba.png'
-import firstbank from '../assets/firstbank-2048x552.png'
-import facebook from '../assets/facebook-2048x396.png'
-import dstv from '../assets/dstv.png'
-import dhl from '../assets/dhl-2048x286.png'
+import img3 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
+import img4 from '../assets/img4.c30081624b5e75db2d05.jpg (4).png'
+import img5 from '../assets/img3.af4f50811d29b7c87650.jpg.png'
+import img6 from '../assets/databrains-team-isle-2048x1365.466352a642ae9bed5d03.jpg (1).png'
+import img8 from '../assets/image.png'
+import img9 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
+
 import main from '../assets/databrain_man1.855c5ded3e93988bc641.png.png'
-import user from '../assets/user.jpeg'
+
 import { Fade, Zoom } from 'react-awesome-reveal'
-import stat from '../assets/Stats01.png'
-import sales from '../assets/Group-921.png'
-import footerlogo from '../assets/db_logo_grey.png'
+import stat from '../assets/image-1.png'
+import sales from '../assets/Stats03.2d00c756a0c20d65132d.png.png'
+
 
 
 const Home = () => {
@@ -25,10 +20,31 @@ const Home = () => {
       <section >
 				<div className='background-image'>
 					<div className='container d-flex'>
+						
+						<div>
+							<Zoom direction="up" delay={1000} triggerOnce={true}>
+							<img src={main}/>
+							</Zoom>
+							<div className='home-img1'>
+								<Zoom triggerOnce={true}>
+								<img  src={img8} />
+								</Zoom>
+							</div>
+							<div className='home-img2'>
+								<Zoom triggerOnce={true}>
+								<img  src={stat} />
+								</Zoom>
+							</div>
+							<div className='home-img3'>
+								<Zoom triggerOnce={true}>
+								<img  src={sales} />
+								</Zoom>
+							</div>
+						</div>
 						<div className='background-image-header'>
 							<Fade direction='down' triggerOnce={true}>
 							<div className='d-flex'>
-								<i class="fas fa-dot-circle mt-1 me-2"></i>
+								
 								<h6>DataBrains Technology Consulting</h6>
 							</div>
 							<div>
@@ -46,26 +62,6 @@ const Home = () => {
 								</div>
 								</Fade>
 							</div>					
-						</div>
-						<div>
-							<Zoom direction="up" delay={1000} triggerOnce={true}>
-							<img src={main}/>
-							</Zoom>
-							<div className='home-img1'>
-								<Zoom triggerOnce={true}>
-								<img  src={sales} />
-								</Zoom>
-							</div>
-							<div className='home-img2'>
-								<Zoom triggerOnce={true}>
-								<img  src={stat} />
-								</Zoom>
-							</div>
-							<div className='home-img3'>
-								<Zoom triggerOnce={true}>
-								<img  src={img8} />
-								</Zoom>
-							</div>
 						</div>
 					</div>
 				</div>		
@@ -123,7 +119,7 @@ const Home = () => {
 							<Fade direction='down' triggerOnce={true}>
 							<div>
 								<div className='d-flex'>
-									<i class="fas fa-dot-circle mt-1 me-2"></i>
+								
 									<h5>Boost Your Business with Intelligence</h5>
 								</div>
 								<div>
@@ -138,54 +134,149 @@ const Home = () => {
 						<div className='background-header d-flex'>
 							<div className='background'>
 							<Fade direction='left' triggerOnce={true}>
-								<h3>Data Foundations</h3>
-								<h4>Data Architecture</h4>
-								<p>We help you design and implement a data architecture that meets your business needs.</p>
+								<div className='d-flex'>
+									<div className='background-number'>
+										<h6>1</h6>
+									</div>
+									<div>
+										<h3>Data Foundations</h3>
+										<h4>Data Architecture</h4>
+										<p>We help you design and implement a data architecture that meets your business needs.</p>
+
+									</div>
+								</div>
 	
 							</Fade>
 							</div>							
 							<div className='background'>
 							<Fade direction='down' triggerOnce={true}>
+								<div className='d-flex'>
+									<div className='background-number'>
+										<h6>2</h6>
+									</div>
+									<div>
 								<h3>Data Insights</h3>
 								<h4>Data Science</h4>
 								<p>We help you collect, clean, and analyze data to gain insights that can improve your business decisions.</p>
-	
+								</div>
+								</div>
 							</Fade>
 							</div>
 							<div className='background'>
 							<Fade direction='right' triggerOnce={true}>
+								<div className='d-flex'>
+									<div className='background-number'>
+										<h6>3</h6>
+									</div>
+									<div>
 								<h3>Language Intelligence</h3>
 								<h4>Natural Langugage Processing</h4>
 								<p>We help you understand and process human language to build chatbots, virtual assistants, and other NLP-powered applications.</p>
-	
+								</div>
+								</div>
 							</Fade>
 							</div>
 							<div className='background'>
 							<Fade direction='right' triggerOnce={true}>
+								<div className='d-flex'>
+									<div className='background-number'>
+										<h6>4</h6>
+									</div>
+									<div>
 								<h3>Algorithmic Intelligence</h3>
 								<h4>Machine Learning</h4>
 								<p>We help you build and deploy machine learning models to make predictions and recommendations, and automate tasks.</p>
-	
+								</div>
+								</div>
 							</Fade>
 							</div>
 							<div className='background'>
 							<Fade direction='up' triggerOnce={true}>
+								<div className='d-flex'>
+									<div className='background-number'>
+										<h6>5</h6>
+									</div>
+									<div>
 								<h3>Creative Intelligence</h3>
 								<h4>Generative AI</h4>
 								<p>We help you create new content, such as text, images, or videos, using generative AI.</p>
-	
+								</div>
+								</div>
 							</Fade>
 							</div>
 							<div className='background'>
 							<Fade direction='left' triggerOnce={true}>
+								<div className='d-flex'>
+									<div className='background-number'>
+										<h6>6</h6>
+									</div>
+									<div>
 								<h3>Digital Insights</h3>
 								<h4>Web Analytics</h4>
 								<p>We help you track and analyze your website traffic to identify trends and patterns that can improve your website performance and conversion rates.</p>
-	
+								</div>
+								</div>
 							</Fade>
 							</div>
 						</div>
 					</div>
+				</div>
+			</section>
+
+			<section className='home-section-attachment-header'>
+				<div className='container d-flex'>
+					
+					<div className='growing-demand-data-analytics-header'>
+						<Fade direction='left' triggerOnce={true}>
+						<div className='d-flex mb-4'>
+							<h5>A strategy driven consulting company</h5>
+						</div>	
+						<div className='mb-5'>
+							<h1>The Growing Demand for Data Analytics</h1>
+						</div>
+						</Fade>
+						<Fade direction='left' delay={400} triggerOnce={true}>				
+						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
+							<h2 >90 %</h2>
+							<p>Of the world’s data has been created in the last two years.</p>
+						</div>
+						</Fade>
+						<Fade direction='left' delay={600} triggerOnce={true}>
+						<div className='d-flex mt-4 ms-3 growing-demand-data-analytics-header-number'>
+							<h2>58 %</h2>
+							<p>Data-driven companies are more likely to beat revenue goals.</p>
+						</div>
+						</Fade>
+						<Fade direction='left' delay={800} triggerOnce={true}>
+						<div className='d-flex mt-4 ms-5 growing-demand-data-analytics-header-number'>
+							<h2>$ 274 +</h2>
+							<p>The global data analytics market is expected to reach $274.3 billion by 2025.</p>
+						</div>
+						</Fade>
+	
+					</div>
+					
+					
+					<div className='home-attachment-header'>
+						<div className='home-attachment' >
+						<Fade direction='right' triggerOnce={true}>
+							<img src={img6} />
+						</Fade>
+						</div>
+						{/* <div className='d-flex'>							
+							<div className='home-attachment2'>
+								<Fade direction='right' delay={400} triggerOnce={true}>
+								<img src={img8} />	
+								</Fade>						
+							</div>
+							<div className='home-attachment3'>
+								<Fade direction='right' delay={700} triggerOnce={true}>
+								<img src={img7} />
+								</Fade>
+							</div>
+						</div> */}
+					</div>
+					
 				</div>
 			</section>
 			
@@ -194,7 +285,6 @@ const Home = () => {
 					<div className='services-social'>								
 						<div className='services-social-header'>
 							<div className='d-flex mb-4'>
-								<i class="fas fa-dot-circle mt-1 me-2"></i>
 								<h5>We Have Got You Covered</h5>
 							</div>
 							<div>
@@ -224,85 +314,11 @@ const Home = () => {
 				</div>
 			</section>
 
-			<section className='home-section-attachment-header'>
-				<div className='container d-flex'>
-					
-					<div className='growing-demand-data-analytics-header'>
-						<Fade direction='left' triggerOnce={true}>
-						<div className='d-flex mb-4'>
-							<i class="fas fa-dot-circle mt-1 me-2"></i>
-							<h5>A strategy driven consulting company</h5>
-						</div>	
-						<div className='mb-5'>
-							<h1>The Growing Demand for Data Analytics</h1>
-						</div>
-						</Fade>
-						<Fade direction='left' delay={400} triggerOnce={true}>				
-						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
-							<h2 >90 %</h2>
-							<p>Of the world’s data has been created in the last two years.</p>
-						</div>
-						</Fade>
-						<Fade direction='left' delay={600} triggerOnce={true}>
-						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
-							<h2>58 %</h2>
-							<p>Data-driven companies are more likely to beat revenue goals.</p>
-						</div>
-						</Fade>
-						<Fade direction='left' delay={800} triggerOnce={true}>
-						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
-							<h2>$ 274 +</h2>
-							<p>The global data analytics market is expected to reach $274.3 billion by 2025.</p>
-						</div>
-						</Fade>
-						<Fade direction='left' delay={1000} triggerOnce={true}>
-						<div className='home-connect-social'>
-							<div className='d-flex mt-5'>
-								<i class="fas fa-dot-circle mt-1 me-2 mb-4"></i>
-								<h6>Let's Connect on Social</h6>
-							</div>
-							<div className='socials'>
-								<i class="fab fa-facebook"></i>
-								<i class="fab fa-twitter"></i>
-								<i class="fab fa-instagram"></i>
-								<i class="fab fa-youtube"></i>
-								<i class="fab fa-linkedin"></i>
-								<i class="fab fa-tiktok"></i>
-							</div>
-						</div>
-						</Fade>
-					</div>
-					
-					
-					<div className='home-attachment-header'>
-						<div className='home-attachment' >
-						<Fade direction='right' triggerOnce={true}>
-							<img src={img6} />
-						</Fade>
-						</div>
-						<div className='d-flex'>							
-							<div className='home-attachment2'>
-								<Fade direction='right' delay={400} triggerOnce={true}>
-								<img src={img8} />	
-								</Fade>						
-							</div>
-							<div className='home-attachment3'>
-								<Fade direction='right' delay={700} triggerOnce={true}>
-								<img src={img7} />
-								</Fade>
-							</div>
-						</div>
-					</div>
-					
-				</div>
-			</section>
-
 			<section className='home-background-image4'>
 				<div className='container home-articles-header d-flex'>
 					<Fade direction='down' triggerOnce={true}>
 					<div className='mb-5'>
 						<div className='d-flex mb-2'>
-							<i class="fas fa-dot-circle mt-1 me-2"></i>
 							<h6>Simple Steps to Grow With DataBrains</h6>
 						</div>
 						<div>
@@ -367,20 +383,7 @@ const Home = () => {
 					</div>
 					</Fade>
 				</div>
-				<div className='home-connect'>
-					<Fade direction='up' triggerOnce={true}>
-					<div className='d-flex home-connect-text'>
-						<i class="fas fa-dot-circle mt-3 me-2 mb-4"></i>
-						<h6>Let's Connect on Social</h6>
-					</div>
-					<div className='home-socials'>
-						<i class="fab fa-facebook"></i>
-						<i class="fab fa-twitter"></i>
-						<i class="fab fa-linkedin"></i>
-						<i class="fas fa-envelope"></i>
-					</div>
-					</Fade>
-				</div>
+
 			</section>
 
 			<footer className=''>
@@ -393,13 +396,9 @@ const Home = () => {
 									<a href='/'>
 									<h1>Logo</h1>
 									</a>
-									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
 								</div>
-								<div className='d-flex lets-connect-header'>
-									<i className="fas fa-dot-circle mt-1 pe-2"></i>
-									<h6 className='mb-4 text'>Let's Connect on Social</h6>
-								</div>
-								<div className='socials'>
+	
+								<div className='socials mt-3'>
 									<i class="fab fa-facebook"></i>
 									<i class="fab fa-twitter"></i>
 									<i class="fab fa-instagram"></i>
@@ -427,21 +426,18 @@ const Home = () => {
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-phone-alt"></i>
 									<div>
-										<h6>Phone Number</h6>
 										<p>+234.....</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-mail-bulk"></i>
 									<div>
-										<h6>Email Us</h6>
 										<p>1234@email.com</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-map-marked-alt"></i>
 									<div>
-										<h6>Address</h6>
 										<p>+1234 road lagos</p>
 									</div>
 								</div>

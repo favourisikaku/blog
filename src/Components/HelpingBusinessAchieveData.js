@@ -1,22 +1,21 @@
 import React from 'react'
 import user from '../assets/user.jpeg'
 import img3 from '../assets/img3.af4f50811d29b7c87650.jpg.png'
-import img4 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
-import img5 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
+import img4 from '../assets/img4.c30081624b5e75db2d05.jpg.png'
+import img5 from '../assets/img5.021f9dd8f8e68151a72f.jpeg.png'
 import { Fade, Zoom } from 'react-awesome-reveal'
-import footerlogo from '../assets/db_logo_grey.png'
 
 
 const HelpingBusinessAchieveData = () => {
   return (
     <div>
       	<section className=''>
-				<div className='services-background-image data-as-new-oil-header'>
+				<div className='services-background-image helping-business'>
 					<Fade direction='down' triggerOnce={true}>
 					<div className='container'>
 						<h1 className='w-75'>Helping Businesses Achieve Data Mission and Profitable Growth with Latest Technology</h1>
 					</div>
-					<div className='d-flex container mt-4'>
+					{/* <div className='d-flex container mt-4'>
 						<div>
 							<img src={user}/>
 						</div>
@@ -24,7 +23,7 @@ const HelpingBusinessAchieveData = () => {
 							<h5>Dr.Fauziya</h5>
 							<h6>Author</h6>
 						</div>
-					</div>
+					</div> */}
 					</Fade>
 				</div>
 		</section> 
@@ -33,15 +32,11 @@ const HelpingBusinessAchieveData = () => {
 				<div className='datablog-post-container container d-flex'>
 					<div className='datablog-post-header'>
 						<div className='datablog-post-image-header helping-business-achieve-data container'>
-							<div>
-								<Fade direction='down' triggerOnce={true}>
-								<img src={img3} />
-								</Fade>
-							</div>
+						
 							<Fade direction='up' triggerOnce={true}>
 							<div>
 								<div>
-									<h6 className='mt-3'>Introduction:</h6>
+									<h6 className=''>Introduction:</h6>
 									<p className='mt-3'>
 									DataBrains Technology Consulting Limited is a leading data analytics and consulting firm that helps businesses use the latest technology to achieve their data mission. We have a team of experienced data scientists and analysts who are experts in using data to solve business problems. We use a variety of latest technologies to help our clients, including:									</p>
 								</div>
@@ -155,29 +150,26 @@ const HelpingBusinessAchieveData = () => {
 					<Zoom triggerOnce={true}>
 					<form action="/submit" method="post ">
 						<div class="form-group col-8">
-							<label for="comments" className='mb-2 label'>Comments <span class="required">*</span></label>
-							<textarea rows='8' class="form-control" id="comments" name="comments" required></textarea>
-							<span class="error-message">This field is required.</span>
+							<label for="comments" className='mb-2 label' >Comments <span class="required">* (required)</span></label>
+							<textarea rows='8' class="form-control" id="comments" name="comments" placeholder='Input text' required></textarea>
+							
 						</div>
 
 							<div class="form-group col-8">
-								<label for="first_name" className='mb-2 label'>Name <span class="required">*</span></label>
-								<input type="text" class="form-control" id="first_name" name="first_name"  required/>
-								<span class="error-message">This field is required.</span>
+								<label for="first_name" className='mb-2 label'>Name <span class="required">* (required)</span></label>
+								<input type="text" class="form-control" id="first_name" name="first_name" placeholder='Input Name'  required/>
 							</div>
 
 
 							
 							<div class="form-group col-8">
-								<label for="email" className='mb-2 label'>Email <span class="required">*</span></label>
-								<input	type="email" class="form-control" id="email" name="email" required/>
-								<span class="error-message">This field is required.</span>
+								<label for="email" className='mb-2 label'>Email <span class="required">* (required)</span></label>
+								<input	type="email" class="form-control" id="email" name="email" placeholder='Input Valid Email Address' required/>
 							</div>	
 
 							<div class="form-group col-8">
-								<label for="email" className='mb-2 label'>Website <span class="required">*</span></label>
-								<input	type="email" class="form-control" id="email" name="email" required/>
-								<span class="error-message">This field is required.</span>
+								<label for="email" className='mb-2 label'>Website <span class="required">* (required)</span></label>
+								<input	type="email" class="form-control" id="email" name="website" required placeholder='Input'/>
 							</div>	
 
 						<input type="submit" class="btn btn-primary mt-4 post-btn" value="Post Comment"/>
@@ -196,13 +188,9 @@ const HelpingBusinessAchieveData = () => {
 									<a href='/'>
 									<h1>Logo</h1>
 									</a>
-									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
 								</div>
-								<div className='d-flex lets-connect-header'>
-									<i className="fas fa-dot-circle mt-1 pe-2"></i>
-									<h6 className='mb-4 text'>Let's Connect on Social</h6>
-								</div>
-								<div className='socials'>
+	
+								<div className='socials mt-3'>
 									<i class="fab fa-facebook"></i>
 									<i class="fab fa-twitter"></i>
 									<i class="fab fa-instagram"></i>
@@ -230,21 +218,18 @@ const HelpingBusinessAchieveData = () => {
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-phone-alt"></i>
 									<div>
-										<h6>Phone Number</h6>
 										<p>+234.....</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-mail-bulk"></i>
 									<div>
-										<h6>Email Us</h6>
 										<p>1234@email.com</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-map-marked-alt"></i>
 									<div>
-										<h6>Address</h6>
 										<p>+1234 road lagos</p>
 									</div>
 								</div>

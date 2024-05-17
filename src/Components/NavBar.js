@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/db_logo_colour.png'
 
 
 const NavBar = () => {

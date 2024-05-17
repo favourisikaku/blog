@@ -1,11 +1,7 @@
 import React from 'react'
-import user from '../assets/user.jpeg'
-import img2 from '../assets/img4.c30081624b5e75db2d05.jpg (1).png'
+import img2 from '../assets/img4.c30081624b5e75db2d05.jpg (2).png'
 import img6 from '../assets/databrains-team-isle-2048x1365.466352a642ae9bed5d03.jpg.png'
-import img7 from '../assets/unsplash_5QgIuuBxKwM-1024x683.115800ef8b985faca11c.jpg.png'
-import img8 from '../assets/Stats03.png'
 import { Fade, Zoom } from 'react-awesome-reveal'
-import footerlogo from '../assets/db_logo_grey.png'
 import user1 from '../assets/img2.bbcf183bb4aedea86f9e.jpg.png'
 import user2 from '../assets/img2.bbcf183bb4aedea86f9e.jpg-1.png'
 import user3 from '../assets/img2.bbcf183bb4aedea86f9e.jpg-2.png'
@@ -18,7 +14,6 @@ const About = () => {
 					<Fade direction='down' triggerOnce={true}>
 					<div className='container'>
 						<div className='d-flex'>
-							<i className="fas fa-dot-circle mt-1 pe-2"></i>
 							<h5>About Us</h5>
 						</div>
 						<h1>Get to know us</h1>
@@ -34,15 +29,14 @@ const About = () => {
 					<div className='growing-demand-data-analytics-header'>
 						<Fade direction='left' triggerOnce={true}>
 						<div className='d-flex mb-4'>
-							<i class="fas fa-dot-circle mt-1 me-2"></i>
 							<h5>A strategy driven consulting company</h5>
 						</div>	
-						<div className='mb-5'>
+						<div className=''>
 							<h1>Missions and Visions</h1>
 						</div>
 						</Fade>
 						<Fade direction='left' delay={400} triggerOnce={true}>				
-						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
+						<div className='d-flex mt-3 growing-demand-data-analytics-header-text'>
 							<p>Lorem ipsum dolor sit amet consectetur. Integer eu enim congue neque interdum velit sit in tristique. Dui faucibus adipiscing quam at pellentesque nibh pretium laoreet quisque. Aliquam enim at egestas pretium. Semper non sit a lorem lobortis justo. Vestibulum odio gravida sollicitudin et enim a habitasse a. Libero sed odio convallis enim mi varius vel. Nulla at lacinia at diam feugiat. Sit sit pretium feugiat urna urna sed diam. Hendrerit lorem amet turpis netus scelerisque et cras morbi. Ultrices dolor elementum arcu sagittis. Faucibus egestas adipiscing ut eget neque pellentesque feugiat ornare. Feugiat egestas amet amet in. Convallis nisl in purus amet. Vitae odio urna neque semper pulvinar sit. Praesent scelerisque consequat in nibh rhoncus. Volutpat arcu leo ante nullam nunc vel amet ut. Semper feugiat amet turpis velit facilisi faucibus. Neque tortor in non libero sit dui enim. Imperdiet adipiscing integer nisl morbi nulla. Integer facilisi ultrices urna sed ornare egestas sed. Augue leo nulla consectetur dictumst consectetur bibendum nunc pharetra. Varius est gravida molestie quam lectus enim sollicitudin risus neque. Et maecenas a penatibus tempor proin a. Varius est gravida molestie quam lectus enim sollicitudin risus neque. Et maecenas a penatibus tempor proin a.</p>
 						</div>
 						</Fade>
@@ -51,12 +45,12 @@ const About = () => {
 					
 					
 					<div className='home-attachment-header'>
-						<div className='home-attachment' >
+						<div className='home-attachment mt-4' >
 						<Fade direction='right' triggerOnce={true}>
 							<img src={img6} />
 						</Fade>
 						</div>
-						<div className='d-flex'>							
+						{/* <div className='d-flex'>							
 							<div className='home-attachment2'>
 								<Fade direction='right' delay={400} triggerOnce={true}>
 								<img src={img8} />	
@@ -67,7 +61,7 @@ const About = () => {
 								<img src={img7} />
 								</Fade>
 							</div>
-						</div>
+						</div> */}
 					</div>
 					
 				</div>
@@ -78,7 +72,6 @@ const About = () => {
 					<div className='services-social'>								
 						<div className='services-social-header'>
 							<div className='d-flex mb-4'>
-								<i class="fas fa-dot-circle mt-1 me-2"></i>
 								<h5>We Have Got You Covered</h5>
 							</div>
 							<div>
@@ -159,13 +152,9 @@ const About = () => {
 									<a href='/'>
 									<h1>Logo</h1>
 									</a>
-									<p className='mt-4'>At DataBrains, we are committed to excellence. We use the latest data analytics technologies and best practices to ensure our clients get the most out of their data. We are also committed to building long-term relationships with our clients. We believe that by working together, we can help our clients achieve their business goals.</p>
 								</div>
-								<div className='d-flex lets-connect-header'>
-									<i className="fas fa-dot-circle mt-1 pe-2"></i>
-									<h6 className='mb-4 text'>Let's Connect on Social</h6>
-								</div>
-								<div className='socials'>
+	
+								<div className='socials mt-3'>
 									<i class="fab fa-facebook"></i>
 									<i class="fab fa-twitter"></i>
 									<i class="fab fa-instagram"></i>
@@ -193,21 +182,18 @@ const About = () => {
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-phone-alt"></i>
 									<div>
-										<h6>Phone Number</h6>
 										<p>+234.....</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-mail-bulk"></i>
 									<div>
-										<h6>Email Us</h6>
 										<p>1234@email.com</p>
 									</div>
 								</div>
 								<div className='d-flex'>
 									<i aria-hidden="true" class="fas fa-map-marked-alt"></i>
 									<div>
-										<h6>Address</h6>
 										<p>+1234 road lagos</p>
 									</div>
 								</div>
