@@ -2420,6 +2420,9 @@ form{
 .home-connect-social div{
 	display: flex !important;
 }
+.data-as-new-oil-header h1, .helping-business h1, .big-data-is-changing h1, .power-of-data h1{
+	margin-top: 100px;
+}
 } 
 
  @media (min-width:621px) and (max-width:769px) {
@@ -2890,8 +2893,8 @@ form{
 }
 
 .recent-post img{
-	/* width: 100%; */
-	/* height: 100%; */
+	width: 50px;
+	height: 50px;
 }
 .recent-post-social h1{
 	font-size: 40px;
@@ -2934,6 +2937,12 @@ form{
 
 .form-group{
 	width: 90%;
+}
+.datablog-post-container{
+	display: block !important;
+}
+.datablog-post-image-header p{
+	width: 100%;
 }
 .contactus-item-header{
 	justify-content: center;
@@ -3413,8 +3422,10 @@ form{
 	width: 30vw;
 }
 .recent-post img{
-	/* width: 100%;
-	height: 50%; */
+	
+	width: 50px;
+	height: 50px;
+
 }
 .recent-post-social h1{
 	font-size: 40px;
@@ -3483,7 +3494,7 @@ form{
 }
 
 .data-as-new-oil-header h1, .helping-business h1, .big-data-is-changing h1, .power-of-data h1{
-	margin-top: 250px;
+	margin-top: 100px;
 	width: 100% !important;
 }
 } 
@@ -3517,8 +3528,8 @@ form{
 		width: 100%;
 	}
 	.data-as-new-oil-header h1, .helping-business h1, .big-data-is-changing h1, .power-of-data h1{
-		margin-top: 450px;
-		width: 100% !important;
+		margin-top: 100px;
+		/* width: 100% !important; */
 	}
 }
 @media (min-width:1700px) and (max-width:2000px){
