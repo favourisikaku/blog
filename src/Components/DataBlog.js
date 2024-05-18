@@ -30,8 +30,8 @@ const DataBlog = () => {
 							<div className='datablog-post'>
 								<img src={img5} />
 								<h6>Data as the New Oil: Unlocking the Untapped Potential</h6>
-								<div><i aria-hidden="true" class="fas fa-user"></i><span>Name</span></div>
-								<p>As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
+								<div><i aria-hidden="true" class="fas fa-user me-2"></i><span>Name</span></div>
+								<p className="mt-2">As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
 								<div>
 									<a href='/DataAsNewOil'><button >Read more<i aria-hidden="true" class="fas fa-arrow-right ms-2"></i></button></a>					
 								</div>
@@ -41,8 +41,8 @@ const DataBlog = () => {
 						<div className='datablog-post'>
 							<img src={img4}/>
 							<h6>The Power of Data Analytics: How It Can Help You Make Better Decisions</h6>
-							<div><i aria-hidden="true" class="fas fa-user"></i><span>Name</span></div>
-							<p>As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
+							<div><i aria-hidden="true" class="fas fa-user me-2"></i><span>Name</span></div>
+							<p className="mt-2">As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
 							<div>
 								<a href='/PowerOfDataAnalytics'><button >Read more<i aria-hidden="true" class="fas fa-arrow-right ms-2"></i></button></a>					
 							</div>
@@ -52,8 +52,8 @@ const DataBlog = () => {
 							<div className='datablog-post'>
 								<img src={img3}/>
 								<h6>Helping Businesses Achieve Data Mission and Profitable Growth with Latest Technology</h6>
-								<div><i aria-hidden="true" class="fas fa-user"></i><span>Name</span></div>
-								<p>Introduction: In today's data-driven world, businesses need to use data to achieve their goals. However, many businesses struggle to do...</p>
+								<div><i aria-hidden="true" class="fas fa-user me-2"></i><span>Name</span></div>
+								<p className="mt-2">Introduction: In today's data-driven world, businesses need to use data to achieve their goals. However, many businesses struggle to do...</p>
 								<div>
 									<a href='/HelpingBusinessAchieveData'><button >Read more<i aria-hidden="true" class="fas fa-arrow-right ms-2"></i></button></a>					
 								</div>
@@ -63,8 +63,8 @@ const DataBlog = () => {
 							<div className='datablog-post'>
 								<img src={img2}/>
 								<h6>How Big Data is Changing the Way Multinational Companies Deliver Products and Services</h6>
-								<div><i aria-hidden="true" class="fas fa-user"></i><span>Name</span></div>
-								<p>As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
+								<div><i aria-hidden="true" class="fas fa-user me-2"></i><span>Name</span></div>
+								<p className="mt-2">As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
 								<div>
 									<a href='/BigDataIsChanging'><button >Read more<i aria-hidden="true" class="fas fa-arrow-right ms-2"></i></button></a>					
 								</div>

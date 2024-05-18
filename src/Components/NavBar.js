@@ -1,47 +1,49 @@
-import React from 'react'
-import { Link } from 'react-router-dom'
-
+import React from 'react';
+import { useLocation, Link } from 'react-router-dom';
 
 const NavBar = () => {
+  const location = useLocation();
+  const { pathname } = location;
+
   return (
     <div className='nav-container'>
-      <nav class="navbar navbar-light bg-light fixed-top">
-        <div class="container">
-          <a href='/'>
+      <nav className="navbar navbar-light bg-light fixed-top">
+        <div className="container">
+          <Link to='/'>
             <h2 className='nav-header'>Logo</h2>
-          </a>          
+          </Link>
           <div className='nav-text'>
             <ul className='nav-text-middle'>
-              <li><a href='/'>Home</a></li>
-              <li><a href='/About'>About Us</a></li>
-              <li><a href='/Services'>Services</a></li>
-              <li><a href='/DataBlog'>DataBlog</a></li>
-              <li><a href='/Contact'>Contact Us</a></li>					
-            </ul>				
+              <li className={pathname === '/' ? 'active' : ''}><Link to='/'>Home</Link></li>
+              <li className={pathname === '/About' ? 'active' : ''}><Link to='/About'>About Us</Link></li>
+              <li className={pathname === '/Services' ? 'active' : ''}><Link to='/Services'>Services</Link></li>
+              <li className={pathname === '/DataBlog' ? 'active' : ''}><Link to='/DataBlog'>DataBlog</Link></li>
+              <li className={pathname === '/Contact' ? 'active' : ''}><Link to='/Contact'>Contact Us</Link></li>
+            </ul>
           </div>
-          <button class="navbar-toggler bg-light nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
-            <span class="navbar-toggler-icon"></span>
+          <button className="navbar-toggler bg-light nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+            <span className="navbar-toggler-icon"></span>
           </button>
-          <div class="offcanvas offcanvas-end text-bg-light" tabindex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
-            <div class="offcanvas-header">
-              <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+          <div className="offcanvas offcanvas-end text-bg-light" tabIndex="-1" id="offcanvasDarkNavbar" aria-labelledby="offcanvasDarkNavbarLabel">
+            <div className="offcanvas-header">
+              <button type="button" className="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
             </div>
-            <div class="offcanvas-body">
-              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
-                <li class="nav-item" data-bs-dismiss="offcanvas">
-                  <a class="nav-link" aria-current="page" href="/">Home</a>
+            <div className="offcanvas-body">
+              <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li className={`nav-item ${pathname === '/' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
+                  <Link className="nav-link" aria-current="page" to="/">Home</Link>
                 </li>
-                <li class="nav-item" data-bs-dismiss="offcanvas">
-                  <a class="nav-link"  href="/About">About Us</a>
+                <li className={`nav-item ${pathname === '/About' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
+                  <Link className="nav-link" to="/About">About Us</Link>
                 </li>
-                <li class="nav-item" data-bs-dismiss="offcanvas">
-                  <a class="nav-link" href="/Services">Services</a>
+                <li className={`nav-item ${pathname === '/Services' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
+                  <Link className="nav-link" to="/Services">Services</Link>
                 </li>
-                <li class="nav-item" data-bs-dismiss="offcanvas">
-                  <a class="nav-link" href="/DataBlog">DataBlog</a>
+                <li className={`nav-item ${pathname === '/DataBlog' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
+                  <Link className="nav-link" to="/DataBlog">DataBlog</Link>
                 </li>
-                <li class="nav-item" data-bs-dismiss="offcanvas">
-                  <a class="nav-link" href="/Contact">Contact Us</a>
+                <li className={`nav-item ${pathname === '/Contact' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
+                  <Link className="nav-link" to="/Contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
@@ -49,7 +51,7 @@ const NavBar = () => {
         </div>
       </nav>
     </div>
-  )
+  );
 }
 
-export default NavBar
+export default NavBar;

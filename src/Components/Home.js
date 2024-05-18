@@ -43,7 +43,7 @@ const Home = () => {
 						</div>
 						<div className='background-image-header'>
 							<Fade direction='down' triggerOnce={true}>
-							<div className='d-flex'>
+							<div className='d-flex mb-3'>
 								
 								<h6>DataBrains Technology Consulting</h6>
 							</div>
@@ -242,13 +242,13 @@ const Home = () => {
 						</div>
 						</Fade>
 						<Fade direction='left' delay={600} triggerOnce={true}>
-						<div className='d-flex mt-4 ms-3 growing-demand-data-analytics-header-number'>
+						<div className='d-flex mt-5 ms-3 growing-demand-data-analytics-header-number'>
 							<h2>58 %</h2>
 							<p>Data-driven companies are more likely to beat revenue goals.</p>
 						</div>
 						</Fade>
 						<Fade direction='left' delay={800} triggerOnce={true}>
-						<div className='d-flex mt-4 ms-5 growing-demand-data-analytics-header-number'>
+						<div className='d-flex mt-5 ms-5 growing-demand-data-analytics-header-number'>
 							<h2>$ 274 +</h2>
 							<p>The global data analytics market is expected to reach $274.3 billion by 2025.</p>
 						</div>
@@ -335,12 +335,12 @@ const Home = () => {
 					<div className='home-articles-post'>
 						<div>
 							<img src={img5} />
-							<h6>Data as the New Oil: Unlocking the Untapped Potential</h6>
+							<h6 className="mb-3">Data as the New Oil: Unlocking the Untapped Potential</h6>
 							<div>
 								<i aria-hidden="true" class="fas fa-user me-2"></i><span>Dr. Fauziya</span>
 							</div>
 							<div>
-								<p>As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
+								<p className="mt-2 ">As a data science consultant, I’ve had the opportunity to speak with many large organizations that provide data about other...</p>
 							</div>
 							<div>
 								<a href='/DataAsNewOil'><button >Read more<i aria-hidden="true" class="fas fa-arrow-right ms-2"></i></button></a>					
@@ -352,12 +352,12 @@ const Home = () => {
 					<div className='home-articles-post'>
 						<div>
 							<img src={img9} />
-							<h6>The Power of Data Analytics: How It Can Help You Make Better Decisions</h6>
+							<h6 className="mb-3">The Power of Data Analytics: How It Can Help You Make Better Decisions</h6>
 							<div>
 								<i aria-hidden="true" class="fas fa-user me-2"></i><span>Dr. Fauziya</span>
 							</div>
 							<div>
-								<p>Introduction In today's data-driven world, businesses and governments are increasingly turning to data analytics to gain insights into their operations...</p>
+								<p className="mt-2 ">Introduction In today's data-driven world, businesses and governments are increasingly turning to data analytics to gain insights into their operations...</p>
 							</div>
 							<div>
 								<a href='/PowerOfDataAnalytics'><button >Read more<i aria-hidden="true" class="fas fa-arrow-right ms-2"></i></button></a>					
@@ -369,12 +369,12 @@ const Home = () => {
 					<div className='home-articles-post'>
 						<div>
 							<img src={img3} />
-							<h6>Helping Businesses Achieve Data Mission and Profitable Growth with Latest Technology</h6>
+							<h6 className="mb-3">Helping Businesses Achieve Data Mission and Profitable Growth with Latest Technology</h6>
 							<div>
 								<i aria-hidden="true" class="fas fa-user me-2"></i><span>Dr. Fauziya</span>
 							</div>
 							<div>
-								<p>Introduction: In today's data-driven world, businesses need to use data to achieve their goals. However, many businesses struggle to do...</p>
+								<p className="mt-2 ">Introduction: In today's data-driven world, businesses need to use data to achieve their goals. However, many businesses struggle to do...</p>
 							</div>
 							<div>
 								<a href='/HelpingBusinessAchieveData'><button >Read more<i aria-hidden="true" class="fas fa-arrow-right ms-2"></i></button></a>					
