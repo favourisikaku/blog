@@ -45,7 +45,7 @@ a{
     width: 150px;
 }
 .background-image-header{
-    margin-top: 150px;
+    /* margin-top: 150px; */
 	margin-left: 50px;
 }
 .background-image{
@@ -62,7 +62,8 @@ a{
 }
 .background-image img{
     height: 90vh;
-	margin-top: 70px;
+	/* padding-bottom: 100px; */
+	/* margin-top: 70px; */
     /* margin-left: 100px; */
 }
 .background-image h1{
@@ -112,7 +113,7 @@ a{
 }
 .home-img1{
     margin-top: -90%;
-    margin-left: -10%;
+    /* margin-left: -10%; */
 }
 .home-img1 img{
     width: 13vw;
@@ -123,7 +124,7 @@ a{
 }
 .home-img2{
 	margin-left: 60%;
-    margin-top: -30%;
+    margin-top: -10%;
 }
 .home-img2 img{
     width: 13vw;
@@ -134,7 +135,7 @@ a{
     margin-top: 180px; */
 }
 .home-img3{
-	margin-top: -20%;
+	margin-top: 10%;
 }
 .home-img3 img{
     width:13vw;
@@ -3541,15 +3542,15 @@ form{
 		overflow-x: hidden;
 	}
 	.background-image img{
-		margin-left: -15%;
+		/* margin-left: -15%; */
 		
 	}
 	.background-image{
 		padding-bottom: 35px;
 	}
 	.background-image-header{
-		margin-left: -10%;
-		margin-top: 30%;
+		/* margin-left: -10%; */
+		/* margin-top: 30%; */
 	}
 	.home-img1{
 		margin-left: 0;
@@ -3560,6 +3561,9 @@ form{
 	.home-articles img{
 		height: 100%;
 		width: 100%;
+	}
+	.home-btn-2, .home-btn{
+		white-space: nowrap;
 	}
 	.data-as-new-oil-header h1, .helping-business h1, .big-data-is-changing h1, .power-of-data h1{
 		margin-top: 100px;
@@ -3575,7 +3579,7 @@ form{
 		overflow-x: hidden;
 	}
 	.background-image-header{
-		margin-top: 350px;
+		/* margin-top: 350px; */
 	}
 	.services-text-header h1{
 		width: 35vw;
@@ -3681,20 +3685,24 @@ form{
 		font-size: 30px;
 	}
 	.background-image-header{
-		margin-left: 25%;
-
-		margin-top: 30%;
+		margin-left: 90%;
+/* 
+		margin-top: 30%; */
 		/* margin-right: 10%; */
 	}
 	.background-image img{
-		margin-left: 30%;
-		margin-top: 20%;
+		margin-left: 140%;
+		/* margin-top: 20%; */
 	}
 	.home-img1{
-		margin-top: -110%;
+		margin-top: -90%;
 	}
 	.home-img2{
-		margin-right: -40%;
+		margin-right: -55%;
+		/* margin-top: 10%; */
+	}
+	.home-img3{
+		/* margin-top: -5%; */
 	}
 	.background-image-header h6, .background-image-header i{
 		font-size: 40px;
