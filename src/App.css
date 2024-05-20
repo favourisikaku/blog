@@ -3597,9 +3597,14 @@ form{
 		justify-content: center;
 		
 	}
-	 .col-6{
-		width: 100%;
+	.form-control{
+		padding-right:180px;
+		padding-top: 25px;
+		padding-bottom: 25px;
 	}
+	 /* .col-6{
+		width: 100%;
+	} */
 	.home-attachment img{
 		margin-top: -40%;
 		height: 400px;
