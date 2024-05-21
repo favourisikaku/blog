@@ -35,7 +35,7 @@ const About = () => {
 							<h1>Missions and Visions</h1>
 						</div>
 						</Fade>
-						<Fade direction='left' delay={400} triggerOnce={true}>				
+						<Fade direction='left'  triggerOnce={true}>				
 						<div className='d-flex mt-3 growing-demand-data-analytics-header-text'>
 							<p>Lorem ipsum dolor sit amet consectetur. Integer eu enim congue neque interdum velit sit in tristique. Dui faucibus adipiscing quam at pellentesque nibh pretium laoreet quisque. Aliquam enim at egestas pretium. Semper non sit a lorem lobortis justo. Vestibulum odio gravida sollicitudin et enim a habitasse a. Libero sed odio convallis enim mi varius vel. Nulla at lacinia at diam feugiat. Sit sit pretium feugiat urna urna sed diam. Hendrerit lorem amet turpis netus scelerisque et cras morbi. Ultrices dolor elementum arcu sagittis. Faucibus egestas adipiscing ut eget neque pellentesque feugiat ornare. Feugiat egestas amet amet in. Convallis nisl in purus amet. Vitae odio urna neque semper pulvinar sit. Praesent scelerisque consequat in nibh rhoncus. Volutpat arcu leo ante nullam nunc vel amet ut. Semper feugiat amet turpis velit facilisi faucibus. Neque tortor in non libero sit dui enim. Imperdiet adipiscing integer nisl morbi nulla. Integer facilisi ultrices urna sed ornare egestas sed. Augue leo nulla consectetur dictumst consectetur bibendum nunc pharetra. Varius est gravida molestie quam lectus enim sollicitudin risus neque. Et maecenas a penatibus tempor proin a. Varius est gravida molestie quam lectus enim sollicitudin risus neque. Et maecenas a penatibus tempor proin a.</p>
 						</div>

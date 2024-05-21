@@ -22,7 +22,7 @@ const Home = () => {
 					<div className='container d-flex'>
 						
 						<div>
-							<Zoom direction="up" delay={1000} triggerOnce={true}>
+							<Zoom direction="up" triggerOnce={true}>
 							<img src={main}/>
 							</Zoom>
 							<div className='home-img1'>
@@ -53,11 +53,11 @@ const Home = () => {
 							</div>
 							</Fade>
 							<div className='home-btn-header d-flex'>
-								<Fade direction='up' triggerOnce={true}>
-								<div className='home-btn mt-5'>
+								<Fade direction='down' triggerOnce={true}>
+								<div className='home-btn mt-3'>
 									<a href='/About'><button >About Us</button></a>		
 								</div>
-								<div className='home-btn-2 mt-5'>
+								<div className='home-btn-2 mt-3'>
 									<a href='/Contact'><button>Contact Us</button></a>
 								</div>
 								</Fade>
@@ -242,13 +242,13 @@ const Home = () => {
 						</div>
 						</Fade>
 						<Fade direction='left' delay={600} triggerOnce={true}>
-						<div className='d-flex mt-5 ms-3 growing-demand-data-analytics-header-number'>
+						<div className='d-flex mt-5  growing-demand-data-analytics-header-number'>
 							<h2>58 %</h2>
 							<p>Data-driven companies are more likely to beat revenue goals.</p>
 						</div>
 						</Fade>
 						<Fade direction='left' delay={800} triggerOnce={true}>
-						<div className='d-flex mt-5 ms-5 growing-demand-data-analytics-header-number'>
+						<div className='d-flex mt-5 growing-demand-data-analytics-header-number'>
 							<h2>$ 274 +</h2>
 							<p>The global data analytics market is expected to reach $274.3 billion by 2025.</p>
 						</div>

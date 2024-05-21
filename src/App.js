@@ -13,6 +13,7 @@ import BigDataIsChanging from './Components/BigDataIsChanging';
 import ArtificialIntelligence from './Components/ArtificialIntelligence';
 
 
+
 const App = () => {  
 
   return (

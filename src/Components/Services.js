@@ -35,7 +35,7 @@ const Services = () => {
 								<h1>Your Top Choice for Professional Data Services!</h1>
 							</div>
 							</Fade>
-							<Fade direction='down' triggerOnce delay={400}>
+							<Fade direction='down' triggerOnce >
 							<div className='services-top-choice d-flex'>
 							<i class="fa-solid fa-signal ms-4 me-5"></i>
 								<div>
@@ -55,7 +55,7 @@ const Services = () => {
 							</Fade>
 						</div>
 						<div className='services-image-header'>
-							<Zoom direction='up' triggerOnce delay={1000}>
+							<Zoom direction='up' triggerOnce >
 								<img src={img1} />
 							</Zoom>
 						</div>
