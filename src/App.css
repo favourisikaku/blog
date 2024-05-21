@@ -1192,8 +1192,9 @@ ul{
 		}
 	}
     .background-image{
-        padding-top: 10px !important;
-       padding-bottom: 0px;
+        height: 100%;
+        padding-top: 10px;
+        padding-bottom: 0px;
     }
 		.background-image h6{
 			margin-top: 2px;
@@ -1514,6 +1515,7 @@ ul{
 
 .home-articles-post p{
     margin-top: 15px;
+	
     font-size: 14px !important;
     
 }
@@ -1642,6 +1644,7 @@ ul{
 }
 .datablog-post h6, .datablog-post p{
     width: 100%;
+	margin-bottom: 10%;
 }
 .recent-post h3{
     font-size: 20px !important;
@@ -1713,6 +1716,9 @@ ul{
 }
 form{
     margin-left: 15px;
+}
+.home-articles-post h6{
+	margin-bottom: 10% !important;
 }
 .get-in-touch{
 	margin-left: 30%;
@@ -2360,12 +2366,14 @@ form{
 				
     }
     .home-img1{
+		
         margin-top: -340px !important;
         margin-left: -30px !important;
     }
     .home-img1 img{
-        width: 150px !important;
-        height: 100px !important;
+		
+        width: 120px !important;
+        height: 200px !important;
     
     }
     .home-img2{
@@ -2920,6 +2928,10 @@ form{
 }
 .datablog-post h6{
 	width: 40vw;
+	margin-bottom: 10%;
+}
+.datablog-post p{
+	margin-bottom: 10%;
 }
 .recent-post-social-header{
 	margin-bottom: 40px;
