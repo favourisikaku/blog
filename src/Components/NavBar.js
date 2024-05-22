@@ -40,7 +40,7 @@ const NavBar = () => {
                   <Link className="nav-link" to="/Services">Services</Link>
                 </li>
                 <li className={`nav-item ${pathname === '/DataBlog' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
-                  <Link className="nav-link" to="/DataBlog">DataBlog</Link>
+                  <Link className="nav-link" to="/DataBlog">360Blog</Link>
                 </li>
                 <li className={`nav-item ${pathname === '/Contact' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
                   <Link className="nav-link" to="/Contact">Contact Us</Link>
