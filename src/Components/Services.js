@@ -184,7 +184,7 @@ const Services = () => {
 				<Fade direction='right' triggerOnce={true}>
 					<div className='services-social-white-bg'>								
 						<div className='services-social-header-white-bg'>
-							<div className='d-flex mb-4'>
+							<div className=' mb-4'>
 								<h5>We Have Got You Covered</h5>
 							</div>
 							<div>

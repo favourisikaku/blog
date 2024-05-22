@@ -59,7 +59,7 @@ const Contact = () => {
 									</div>
 
 									<div class="form-group col-6">
-										<label for="last_name" className='mb-2 label'>Last Name </label>
+										<label for="last_name" className='mb-2 label'>Last Name <span class="required">*(required)</span></label>
 										<input type="text" class="form-control" id="last_name" name="last_name" placeholder='Input name' required/>
 										
 									</div>

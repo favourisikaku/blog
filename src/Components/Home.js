@@ -284,7 +284,7 @@ const Home = () => {
 				<Fade direction='right' triggerOnce={true}>
 					<div className='services-social'>								
 						<div className='services-social-header'>
-							<div className='d-flex mb-4'>
+							<div className='mb-4'>
 								<h5>We Have Got You Covered</h5>
 							</div>
 							<div>

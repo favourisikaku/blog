@@ -14,11 +14,11 @@ const NavBar = () => {
           </Link>
           <div className='nav-text'>
             <ul className='nav-text-middle'>
-              <li className={pathname === '/' ? 'active' : ''}><Link to='/'>Home</Link></li>
-              <li className={pathname === '/About' ? 'active' : ''}><Link to='/About'>About Us</Link></li>
-              <li className={pathname === '/Services' ? 'active' : ''}><Link to='/Services'>Services</Link></li>
-              <li className={pathname === '/DataBlog' ? 'active' : ''}><Link to='/DataBlog'>360Blog</Link></li>
-              <li className={pathname === '/Contact' ? 'active' : ''}><Link to='/Contact'>Contact Us</Link></li>
+              <li className={pathname === '/' ? 'active' : ''}><Link reloadDocument to='/'>Home</Link></li>
+              <li className={pathname === '/About' ? 'active' : ''}><Link reloadDocument to='/About'>About Us</Link></li>
+              <li className={pathname === '/Services' ? 'active' : ''}><Link reloadDocument to='/Services'>Services</Link></li>
+              <li className={pathname === '/DataBlog' ? 'active' : ''}><Link reloadDocument to='/DataBlog'>360Blog</Link></li>
+              <li className={pathname === '/Contact' ? 'active' : ''}><Link  reloadDocumentto='/Contact'>Contact Us</Link></li>
             </ul>
           </div>
           <button className="navbar-toggler bg-light nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
@@ -31,19 +31,19 @@ const NavBar = () => {
             <div className="offcanvas-body">
               <ul className="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li className={`nav-item ${pathname === '/' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
-                  <Link className="nav-link" aria-current="page" to="/">Home</Link>
+                  <Link  reloadDocument className="nav-link" aria-current="page" to="/">Home</Link>
                 </li>
                 <li className={`nav-item ${pathname === '/About' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
-                  <Link className="nav-link" to="/About">About Us</Link>
+                  <Link reloadDocument  className="nav-link" to="/About">About Us</Link>
                 </li>
                 <li className={`nav-item ${pathname === '/Services' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
-                  <Link className="nav-link" to="/Services">Services</Link>
+                  <Link  reloadDocument className="nav-link" to="/Services">Services</Link>
                 </li>
                 <li className={`nav-item ${pathname === '/DataBlog' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
-                  <Link className="nav-link" to="/DataBlog">360Blog</Link>
+                  <Link  reloadDocument className="nav-link" to="/DataBlog">360Blog</Link>
                 </li>
                 <li className={`nav-item ${pathname === '/Contact' ? 'active' : ''}`} data-bs-dismiss="offcanvas">
-                  <Link className="nav-link" to="/Contact">Contact Us</Link>
+                  <Link  reloadDocument className="nav-link" to="/Contact">Contact Us</Link>
                 </li>
               </ul>
             </div>
