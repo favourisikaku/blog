@@ -44,7 +44,7 @@ const About = () => {
 					</div>
 					
 					
-					<div className='home-attachment-header'>
+					<div className='home-attachment-header about-section-attachment-image-header'>
 						<div className='home-attachment mt-4' >
 						<Fade direction='right' triggerOnce={true}>
 							<img src={img6} />
