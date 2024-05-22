@@ -3829,6 +3829,9 @@ form{
 		margin-top: 250px;
 		width: 100% !important;
 	}
+	.get-in-touch .d-flex i{
+		margin-top: 5% !important;
+	}
 }
  @media (min-width:2000px) {
 	html,body{
@@ -4283,6 +4286,7 @@ form{
 	.form-container h2{
 		font-size: 50px;
 	}
+	
 	.get-in-touch p, .get-in-touch i {
 		font-size: 30px;
 	}
