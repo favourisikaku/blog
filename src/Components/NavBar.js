@@ -18,7 +18,7 @@ const NavBar = () => {
               <li className={pathname === '/About' ? 'active' : ''}><Link reloadDocument to='/About'>About Us</Link></li>
               <li className={pathname === '/Services' ? 'active' : ''}><Link reloadDocument to='/Services'>Services</Link></li>
               <li className={pathname === '/DataBlog' ? 'active' : ''}><Link reloadDocument to='/DataBlog'>360Blog</Link></li>
-              <li className={pathname === '/Contact' ? 'active' : ''}><Link  reloadDocumentto='/Contact'>Contact Us</Link></li>
+              <li className={pathname === '/Contact' ? 'active' : ''}><Link  reloadDocument to='/Contact'>Contact Us</Link></li>
             </ul>
           </div>
           <button className="navbar-toggler bg-light nav-btn" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
