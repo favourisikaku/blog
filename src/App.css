@@ -18,6 +18,7 @@ a{
 .navbar button{
 	display: none;
 }
+
 .nav-text-middle{
 	display: flex;
 }
@@ -3612,6 +3613,12 @@ form{
 		/* width: 100% !important; */
 	}
 }
+@media (min-width:1362px) and (max-width:1700px){
+	.datablog-post-header{
+		display: grid !important;
+		grid-template-columns: 1fr 1fr;
+	}
+}
 @media (min-width:1700px) and (max-width:2000px){
 	html,body{
 		width: 100%;
@@ -3785,7 +3792,7 @@ form{
 	.datablog-post-container{
 		margin: 0;
 		padding: 0;
-		margin-left: 13%;
+		margin-left: 8%;
 		margin-top: 100px;
 	}
 	.datablog-post h6{
